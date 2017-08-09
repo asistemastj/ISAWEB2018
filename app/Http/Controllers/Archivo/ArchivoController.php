@@ -40,17 +40,6 @@ class ArchivoController extends Controller
     }
 
     /**
-     * Display the specified resource.
-     *
-     * @param  \App\Archivo  $archivo
-     * @return \Illuminate\Http\Response
-     */
-    public function show(Archivo $archivo)
-    {
-        //
-    }
-
-    /**
      * Show the form for editing the specified resource.
      *
      * @param  \App\Archivo  $archivo

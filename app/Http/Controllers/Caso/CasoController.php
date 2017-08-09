@@ -40,17 +40,6 @@ class CasoController extends Controller
     }
 
     /**
-     * Display the specified resource.
-     *
-     * @param  \App\Caso  $caso
-     * @return \Illuminate\Http\Response
-     */
-    public function show(Caso $caso)
-    {
-        //
-    }
-
-    /**
      * Show the form for editing the specified resource.
      *
      * @param  \App\Caso  $caso

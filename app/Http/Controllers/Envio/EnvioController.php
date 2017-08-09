@@ -40,17 +40,6 @@ class EnvioController extends Controller
     }
 
     /**
-     * Display the specified resource.
-     *
-     * @param  \App\Envio  $envio
-     * @return \Illuminate\Http\Response
-     */
-    public function show(Envio $envio)
-    {
-        //
-    }
-
-    /**
      * Show the form for editing the specified resource.
      *
      * @param  \App\Envio  $envio

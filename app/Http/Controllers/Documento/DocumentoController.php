@@ -40,17 +40,6 @@ class DocumentoController extends Controller
     }
 
     /**
-     * Display the specified resource.
-     *
-     * @param  \App\Documento  $documento
-     * @return \Illuminate\Http\Response
-     */
-    public function show(Documento $documento)
-    {
-        //
-    }
-
-    /**
      * Show the form for editing the specified resource.
      *
      * @param  \App\Documento  $documento

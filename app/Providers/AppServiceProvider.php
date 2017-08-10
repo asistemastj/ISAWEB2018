@@ -13,7 +13,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        #para el error de utf8mb4
+        Schema::defaultStringLength(191);
     }
 
     /**

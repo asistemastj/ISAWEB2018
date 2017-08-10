@@ -96,8 +96,11 @@ class UserEnvioController extends Controller
      * @param  \App\User  $user
      * @return \Illuminate\Http\Response
      */
-    public function destroy(User $usuario)
+    public function destroy(User $usuario, Envio $envio)
     {
-        //
+        if($usuario->id == $envio->user_id){
+            $envio->delete();
+            return response()->json(['data' => $envio]);
+        }
     }
 }

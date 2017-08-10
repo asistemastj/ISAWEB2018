@@ -15,7 +15,8 @@ class ArchivoController extends Controller
      */
     public function index()
     {
-        //
+        $archivos = Archivo::all();
+        return response()->json(['data' => $archivos]);
     }
 
     /**

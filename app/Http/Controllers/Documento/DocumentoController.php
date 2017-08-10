@@ -15,7 +15,9 @@ class DocumentoController extends Controller
      */
     public function index()
     {
-        //
+        #listar documentos
+        $documentos = Documento::all();
+        return Response()->json(['data' => $documentos]);
     }
 
     /**

@@ -27,4 +27,4 @@ Route::resource('documentos', 'Documento\DocumentoController', ['only' => 'index
 Route::resource('envios', 'Envio\EnvioController', ['only' => 'index']);
 #Usuarios
 Route::resource('usuarios', 'User\UserController', ['only' => 'index']);
-Route::resource('usuarios.envios', 'User\UserEnviocontroller', ['only' => 'index', 'store','update']);
+Route::resource('usuarios.envios', 'User\UserEnvioController', ['only' => 'index', 'store','update']);

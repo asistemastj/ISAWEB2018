@@ -6,18 +6,17 @@ use App\User;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
-class UserEnviocontroller extends Controller
+class UserEnvioController extends Controller
 {
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
-    public function index(User $user)
+    public function index(User $usuario)
     {
-        #listar envios hechos por 1 determinado usuario
-        dd($user);
-        #return response()->json(['data' => $envios]);
+        $envios = $usuario->envios;
+        return response()->json(['data' => $envios]);
     }
 
     /**
@@ -47,7 +46,7 @@ class UserEnviocontroller extends Controller
      * @param  \App\User  $user
      * @return \Illuminate\Http\Response
      */
-    public function show(User $user)
+    public function show(User $usuario)
     {
         //
     }
@@ -58,7 +57,7 @@ class UserEnviocontroller extends Controller
      * @param  \App\User  $user
      * @return \Illuminate\Http\Response
      */
-    public function edit(User $user)
+    public function edit(User $usuario)
     {
         //
     }
@@ -70,7 +69,7 @@ class UserEnviocontroller extends Controller
      * @param  \App\User  $user
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, User $user)
+    public function update(Request $request, User $usuario)
     {
         //
     }
@@ -81,7 +80,7 @@ class UserEnviocontroller extends Controller
      * @param  \App\User  $user
      * @return \Illuminate\Http\Response
      */
-    public function destroy(User $user)
+    public function destroy(User $usuario)
     {
         //
     }

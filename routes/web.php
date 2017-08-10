@@ -20,4 +20,4 @@ Route::resource('archivos', 'Archivo\ArchivoController', ['only' => 'index']);
 #Area
 Route::resource('areas', 'Area\AreaController', ['only' => 'index']);
 #Caso
-Route::resource('casos', 'Casos\CasosController', ['only' => 'index']);
+Route::resource('casos', 'Caso\CasoController', ['only' => 'index']);

@@ -16,7 +16,7 @@ class CasoController extends Controller
     public function index()
     {
         #listar casos
-        $casos = Casos::all();
+        $casos = Caso::all();
         return Response()->json(['data' => $casos]);
     }
 

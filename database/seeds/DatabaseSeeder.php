@@ -18,8 +18,6 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-    	#$this->call(AreaTableSeeder::class);
-        #$this->call(UsersTableSeeder::class);
         #desactivamos clave foranea
         DB::statement('SET FOREIGN_KEY_CHECKS = 0');
         #borrar datos sin tabla

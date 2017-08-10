@@ -57,8 +57,8 @@ $factory->define(Envio::class, function (Faker\Generator $faker) {
     return [
         'contenido' => $faker->sentence(2),
         'observacion' => $faker->paragraph(1),
-        'fechaEnvio' => $faker->dateTimeBetween($startDate = '-3 days', $endDate = 'yesterday', $format = 'Y-m-d'),
-        'fechaLlegada' => $faker->dateTime($format = 'Y-m-d', $startDate = 'now', $max = 'tomorrow'),
+        'fechaEnvio' => $faker->date($format = 'Y-m-d', $max = 'now'),
+        'fechaLlegada' => $faker->date($format = 'Y-m-d', $max = 'now'),
         'estado' => $faker->randomElement([Envio::ENVIO_NO_FINALIZADO, Envio::ENVIO_FINALIZADO]),
         'remitente_id' => $remitente,
         'destinatario_id' => $destinatario,
@@ -72,7 +72,7 @@ $factory->define(Caso::class, function (Faker\Generator $faker) {
         'titulo' => $faker->sentence(3),
         'contenido' => $faker->paragraph(1),
         'conclusion' => $faker->sentence(5),
-        'fecha' => $faker->dateTime($format = 'Y-m-d', $max = 'now'),
+        'fecha' => $faker->date($format = 'Y-m-d', $max = 'now'),
         'redactor_id' => User::all()->random()->id,
     ];
 });
@@ -96,6 +96,6 @@ $factory->define(Documento::class, function (Faker\Generator $faker) {
         'estado' => $faker->randomElement([Documento::DOC_DISPONIBLE, Documento::DOC_NO_DISPLONIBLE]),
         'tipo' => $faker->randomElement(['PROCEDIMIENTO', 'INSTRUCTIVO']),
         'archivo' => $faker->randomElement(['4.jpg', '5.pdf', '6.dox']),
-        'area_id' => User::all()->random()->area()->id,
+        'area_id' => Area::all()->random()->id,
     ];
 });

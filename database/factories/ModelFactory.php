@@ -1,5 +1,12 @@
 <?php
 
+use App\Area;
+use App\Caso;
+use App\User;
+use App\Envio;
+use App\Archivo;
+use App\Documento;
+
 /*
 |--------------------------------------------------------------------------
 | Model Factories
@@ -12,13 +19,83 @@
 */
 
 /** @var \Illuminate\Database\Eloquent\Factory $factory */
-$factory->define(App\User::class, function (Faker\Generator $faker) {
+
+#factory para Area
+$factory->define(Area::class, function (Faker\Generator $faker) {
+
+    return [
+        'nombre' => $faker->sentence(2),
+        'codigo' => $faker->word,
+        'descripcion' => $faker->paragraph(1),
+        'estado' => $faker->randomElement([Area::AREA_ACTIVA, Area::AREA_INACTIVA]),
+    ];
+});
+
+#factory para User
+$factory->define(User::class, function (Faker\Generator $faker) {
     static $password;
 
     return [
-        'name' => $faker->name,
+        'nombre' => $faker->name,
+        'username' => $faker->username,
+        'descripcion' => $faker->paragraph(1),
         'email' => $faker->unique()->safeEmail,
-        'password' => $password ?: $password = bcrypt('secret'),
+        'password' => $password ?: $password = bcrypt('123456'),
+        'avatar' => $faker->randomElement(['1.jpg', '2.pdf', '3.dox']),
+        'estado' => $faker->randomElement([User::USUARIO_ACTIVO, User::USUARIO_INACTIVO]),
+        'admin' => $faker->randomElement([User::USUARIO_ADMINISTRADOR, User::USUARIO_NO_ADMINISTRADOR]),
+        'area_id' => Area::all()->random()->id,
         'remember_token' => str_random(10),
+    ];
+});
+
+#factory para Envio
+$factory->define(Envio::class, function (Faker\Generator $faker) {
+    $remitente = User::all()->random()->id;
+    $destinatario = User::all()->except($remitente)->random()->id;
+
+    return [
+        'contenido' => $faker->sentence(2),
+        'observacion' => $faker->paragraph(1),
+        'fechaEnvio' => $faker->dateTimeBetween($startDate = '-3 days', $endDate = 'yesterday', $format = 'Y-m-d'),
+        'fechaLlegada' => $faker->dateTime($format = 'Y-m-d', $startDate = 'now', $max = 'tomorrow'),
+        'estado' => $faker->randomElement([Envio::ENVIO_NO_FINALIZADO, Envio::ENVIO_FINALIZADO]),
+        'remitente_id' => $remitente,
+        'destinatario_id' => $destinatario,
+    ];
+});
+
+#factory para Caso
+$factory->define(Caso::class, function (Faker\Generator $faker) {
+    
+    return [
+        'titulo' => $faker->sentence(3),
+        'contenido' => $faker->paragraph(1),
+        'conclusion' => $faker->sentence(5),
+        'fecha' => $faker->dateTime($format = 'Y-m-d', $max = 'now'),
+        'redactor_id' => User::all()->random()->id,
+    ];
+});
+
+#factory para Archivo
+$factory->define(Archivo::class, function (Faker\Generator $faker) {
+    
+    return [
+        'nombre' => $faker->sentence(3),
+        'formato' => $faker->word,
+        'caso_id' => Caso::all()->random()->id,
+    ];
+});
+
+#factory para Documento
+$factory->define(Documento::class, function (Faker\Generator $faker) {
+
+    return [
+        'nombre' => $faker->sentence(2),
+        'descripcion' => $faker->paragraph(1),
+        'estado' => $faker->randomElement([Documento::DOC_DISPONIBLE, Documento::DOC_NO_DISPLONIBLE]),
+        'tipo' => $faker->randomElement(['PROCEDIMIENTO', 'INSTRUCTIVO']),
+        'archivo' => $faker->randomElement(['4.jpg', '5.pdf', '6.dox']),
+        'area_id' => User::all()->random()->area()->id,
     ];
 });

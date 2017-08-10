@@ -23,3 +23,7 @@ Route::resource('areas', 'Area\AreaController', ['only' => 'index']);
 Route::resource('casos', 'Caso\CasoController', ['only' => 'index']);
 #Documento
 Route::resource('documentos', 'Documento\DocumentoController', ['only' => 'index']);
+#Envio
+Route::resource('envios', 'Envio\EnvioController', ['only' => 'index']);
+#Usuarios
+Route::resource('usuarios', 'User\UserController', ['only' => 'index']);

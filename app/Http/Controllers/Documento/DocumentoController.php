@@ -17,7 +17,7 @@ class DocumentoController extends Controller
     {
         #listar documentos
         $documentos = Documento::all();
-        return Response()->json(['data' => $documentos]);
+        return response()->json(['data' => $documentos]);
     }
 
     /**

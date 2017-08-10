@@ -19,7 +19,7 @@ class CreateEnvioTable extends Migration
             $table->string('contenido');
             $table->text('observacion')->nullable();
             $table->date('fechaEnvio');
-            $table->date('fechaLlegada');
+            $table->date('fechaLlegada')->nullable();
             $table->string('estado')->default(Envio::ENVIO_NO_FINALIZADO);
             #foreign key
             $table->integer('user_id')->unsigned();

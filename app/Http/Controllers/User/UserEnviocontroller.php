@@ -35,9 +35,23 @@ class UserEnvioController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(Request $request, User $usuario)
     {
-        //
+        $destinatario_id =User::all()->except($usuario)->random()->id;
+        #validación
+        $this->validate($request, [
+            'contenido' => 'required',
+            'observacion' => 'nullable',
+            'fechaEnvio' => 'required|date',
+            'fechaEnvio' => 'nullable|date',
+        ]);
+        #si pasavalidacio
+        $data = $request->all();
+        $data['user_id'] = $usuario->id;
+        $data['destinatario_id'] = $destinatario_id;
+        #creamos envio
+        $envio = Envio::create($data);
+        return response()->json(['data' => $envio, 'code' => 201]);
     }
 
     /**

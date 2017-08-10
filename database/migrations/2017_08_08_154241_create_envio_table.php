@@ -1,5 +1,6 @@
 <?php
 
+use App\Envio;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
@@ -19,7 +20,7 @@ class CreateEnvioTable extends Migration
             $table->text('observacion')->nullable();
             $table->date('fechaEnvio');
             $table->date('fechaLlegada');
-            $table->string('estado');
+            $table->string('estado')->default(Envio::ENVIO_NO_FINALIZADO);
             #foreign key
             $table->integer('remitente_id')->unsigned();
             $table->foreign('remitente_id')->references('id')->on('users')->onDelete('cascade');

@@ -1,5 +1,6 @@
 <?php
 
+use App\Area;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
@@ -18,7 +19,7 @@ class CreateAreaTable extends Migration
             $table->string('nombre');
             $table->string('codigo');
             $table->text('descripcion');
-            $table->string('estado');
+            $table->string('estado')->default(Area::AREA_ACTIVA);
             $table->timestamps();
         });
     }

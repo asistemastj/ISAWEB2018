@@ -13,6 +13,12 @@ class User extends Authenticatable
     #indicamos a que tabla apunta
     protected $table = 'users';
 
+    #constantes con las que manipularemos estado y admin
+    const USUARIO_ADMINISTRADOR = '1';
+    const USUARIO_NO_ADMINISTRADOR = '0';
+    const USUARIO_ACTIVO = '1';
+    const USUARIO_INACTIVO = '0';
+
     /**
      * The attributes that are mass assignable.
      *
@@ -30,6 +36,16 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
+
+    #metodo para ver si es administrador
+    public function esAdministrador(){
+        return $this->admin == User::USUARIO_ADMINISTRADOR;
+    }
+
+    #metodo para ver si usuario esta activo
+    public function estaActivo(){
+        return $this->estado == User::USUARIO_ACTIVO;
+    }
 
     #relacion con area
     public function area()

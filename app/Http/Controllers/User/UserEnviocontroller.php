@@ -3,6 +3,8 @@
 namespace App\Http\Controllers\User;
 
 use App\User;
+use App\Envio;
+use Carbon\Carbon;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
@@ -37,18 +39,18 @@ class UserEnvioController extends Controller
      */
     public function store(Request $request, User $usuario)
     {
-        $destinatario_id =User::all()->except($usuario)->random()->id;
         #validación
         $this->validate($request, [
             'contenido' => 'required',
             'observacion' => 'nullable',
-            'fechaEnvio' => 'required|date',
-            'fechaEnvio' => 'nullable|date',
+            'fechaEnvio' => 'date',
+            'fechaLlegada' => 'nullable|date',
+            'destinatario_id'=>'required|integer'
         ]);
         #si pasavalidacio
         $data = $request->all();
+        $data['fechaEnvio'] = Carbon::now();
         $data['user_id'] = $usuario->id;
-        $data['destinatario_id'] = $destinatario_id;
         #creamos envio
         $envio = Envio::create($data);
         return response()->json(['data' => $envio, 'code' => 201]);

@@ -16,3 +16,18 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+
+#Archivos
+Route::resource('archivos', 'Archivo\ArchivoController', ['only' => 'index']);
+#Area
+Route::resource('areas', 'Area\AreaController', ['only' => 'index']);
+#Caso
+Route::resource('casos', 'Caso\CasoController', ['only' => 'index']);
+#Documento
+Route::resource('documentos', 'Documento\DocumentoController', ['only' => 'index']);
+#Envio
+Route::resource('envios', 'Envio\EnvioController', ['only' => 'index']);
+#Usuarios
+Route::resource('usuarios', 'User\UserController', ['only' => 'index']);
+Route::resource('usuarios.envios', 'User\UserEnvioController', ['except' => 'show']);

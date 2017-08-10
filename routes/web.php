@@ -15,4 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+#Archivos
 Route::resource('archivos', 'Archivo\ArchivoController', ['only' => 'index']);
+#Area
+Route::resource('areas', 'Area\AreaController', ['only' => 'index']);

@@ -22,8 +22,8 @@ class CreateEnvioTable extends Migration
             $table->date('fechaLlegada');
             $table->string('estado')->default(Envio::ENVIO_NO_FINALIZADO);
             #foreign key
-            $table->integer('remitente_id')->unsigned();
-            $table->foreign('remitente_id')->references('id')->on('users')->onDelete('cascade');
+            $table->integer('user_id')->unsigned();
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
             $table->integer('destinatario_id')->unsigned();
             $table->foreign('destinatario_id')->references('id')->on('users')->onDelete('cascade');
             $table->timestamps();

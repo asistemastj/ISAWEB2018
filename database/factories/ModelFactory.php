@@ -51,8 +51,8 @@ $factory->define(User::class, function (Faker\Generator $faker) {
 
 #factory para Envio
 $factory->define(Envio::class, function (Faker\Generator $faker) {
-    $remitente = User::all()->random()->id;
-    $destinatario = User::all()->except($remitente)->random()->id;
+    $user = User::all()->random()->id;
+    $destinatario = User::all()->except($user)->random()->id;
 
     return [
         'contenido' => $faker->sentence(2),
@@ -60,7 +60,7 @@ $factory->define(Envio::class, function (Faker\Generator $faker) {
         'fechaEnvio' => $faker->date($format = 'Y-m-d', $max = 'now'),
         'fechaLlegada' => $faker->date($format = 'Y-m-d', $max = 'now'),
         'estado' => $faker->randomElement([Envio::ENVIO_NO_FINALIZADO, Envio::ENVIO_FINALIZADO]),
-        'remitente_id' => $remitente,
+        'user_id' => $user,
         'destinatario_id' => $destinatario,
     ];
 });
@@ -73,7 +73,7 @@ $factory->define(Caso::class, function (Faker\Generator $faker) {
         'contenido' => $faker->paragraph(1),
         'conclusion' => $faker->sentence(5),
         'fecha' => $faker->date($format = 'Y-m-d', $max = 'now'),
-        'redactor_id' => User::all()->random()->id,
+        'user_id' => User::all()->random()->id,
     ];
 });
 

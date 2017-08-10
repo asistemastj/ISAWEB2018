@@ -20,8 +20,8 @@ class CreateCasoTable extends Migration
             $table->string('conclusion');
             $table->date('fecha');
             #foreign key
-            $table->integer('redactor_id')->unsigned();
-            $table->foreign('redactor_id')->references('id')->on('users')->onDelete('cascade');
+            $table->integer('user_id')->unsigned();
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
             $table->timestamps();
         });
     }

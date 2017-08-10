@@ -15,15 +15,15 @@ class Envio extends Model
     const ENVIO_FINALIZADO = 'Finalizado';
 
     #los datos que podra recibir
-    protected $fillable = ['contenido', 'observacion', 'fechaEnvio', 'fechaLlegada', 'estado', 'remitente_id', 'destinatario_id'];
+    protected $fillable = ['contenido', 'observacion', 'fechaEnvio', 'fechaLlegada', 'estado', 'user_id', 'destinatario_id'];
 
     #funcion para ver estado del envio
     public function estaFinalizado(){
         return $this->estado == Envio::ENVIO_FINALIZADO;
     }
 
-    #relacion con remitente
-    public function remitente()
+    #relacion con User remitente
+    public function user()
     {
         return $this->belongsTo(User::class);
     }

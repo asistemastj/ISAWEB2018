@@ -11,10 +11,10 @@ class Caso extends Model
 	#indicamos a que tabla aputna
     protected $table = 'caso';
     #los datos que podra recibir
-    protected $fillable = ['titulo', 'contenido', 'conclusion', 'fecha', 'redactor_id'];
+    protected $fillable = ['titulo', 'contenido', 'conclusion', 'fecha', 'user_id'];
 
     #relacion con readactor(usuario)
-    public function redactor(){
+    public function user(){
     	return $this->belongsTo(User::class);
     }
 

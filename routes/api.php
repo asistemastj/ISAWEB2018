@@ -24,6 +24,7 @@ Route::resource('archivos', 'Archivo\ArchivoController', ['only' => 'index']);
 Route::resource('areas', 'Area\AreaController', ['only' => 'index']);
 #Caso
 Route::resource('casos', 'Caso\CasoController', ['only' => 'index']);
+Route::resource('casos.archivos', 'Caso\CasoArchivoController', ['except' => ['edit', 'show', 'update']]);
 #Documento
 Route::resource('documentos', 'Documento\DocumentoController', ['only' => 'index']);
 #Envio

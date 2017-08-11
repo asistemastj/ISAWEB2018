@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Caso;
 
 use App\Caso;
+use App\Archivo;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
@@ -36,9 +37,18 @@ class CasoArchivoController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(Request $request, Caso $caso)
     {
-        //
+        #validación
+        $this->validate($request, [
+            'nombre' => 'required',
+        ]);
+        $data = $request->all();
+        $data['nombre'] = $request->nombre->store('');
+        $data['caso_id'] = $caso->id;
+        #creamos archivo
+        $archivo = Archivo::create($data);
+        return response()->json(['data' => $archivo, 'code' => 200]);
     }
 
     /**

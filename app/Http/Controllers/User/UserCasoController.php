@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\User;
 
+use App\Caso;
 use App\User;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
@@ -71,8 +72,12 @@ class UserCasoController extends Controller
      * @param  \App\User  $user
      * @return \Illuminate\Http\Response
      */
-    public function destroy(User $user)
-    {
-        //
+    public function destroy(User $usuario, Caso $caso)
+    {   
+        #el usuario solo puede borrar su propio caso
+        if($usuario->id == $caso->user_id){
+            $caso->delete();
+            return response()->json(['data' => $caso]);
+        }
     }
 }

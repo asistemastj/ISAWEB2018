@@ -17,7 +17,7 @@ class CreateCasoTable extends Migration
             $table->increments('id');
             $table->string('titulo');
             $table->text('contenido');
-            $table->string('conclusion');
+            $table->string('conclusion')->nullable();
             $table->date('fecha');
             #foreign key
             $table->integer('user_id')->unsigned();

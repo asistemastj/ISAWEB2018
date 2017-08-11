@@ -4,6 +4,7 @@ namespace App\Http\Controllers\User;
 
 use App\Caso;
 use App\User;
+use Carbon\Carbon;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
@@ -37,9 +38,22 @@ class UserCasoController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(Request $request, User $usuario)
     {
-        //
+        #validación
+        $this->validate($request, [
+            'titulo' => 'required|max:100',
+            'contenido' => 'required|max:255',
+            'conclusion' => 'nullable|string',
+            'fecha' => 'date',
+        ]);
+        #si pasavalidacio
+        $data = $request->all();
+        $data['fecha'] = Carbon::now();
+        $data['user_id'] = $usuario->id;
+        #creamos envio
+        $envio = Envio::create($data);
+        return response()->json(['data' => $envio, 'code' => 201]);
     }
 
 

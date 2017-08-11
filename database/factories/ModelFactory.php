@@ -82,7 +82,6 @@ $factory->define(Archivo::class, function (Faker\Generator $faker) {
     
     return [
         'nombre' => $faker->sentence(3),
-        'formato' => $faker->word,
         'caso_id' => Caso::all()->random()->id,
     ];
 });

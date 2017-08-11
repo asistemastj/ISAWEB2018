@@ -16,7 +16,6 @@ class CreateArchivoTable extends Migration
         Schema::create('archivo', function (Blueprint $table) {
             $table->increments('id');
             $table->string('nombre');
-            $table->string('formato');
             #foreign key
             $table->integer('caso_id')->unsigned();
             $table->foreign('caso_id')->references('id')->on('caso')->onDelete('cascade');

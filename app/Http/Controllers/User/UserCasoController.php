@@ -4,6 +4,7 @@ namespace App\Http\Controllers\User;
 
 use App\Caso;
 use App\User;
+use App\Archivo;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
@@ -46,14 +47,23 @@ class UserCasoController extends Controller
             'contenido' => 'required|max:255',
             'conclusion' => 'nullable|string',
             'fecha' => 'date',
+            'archivo' => 'file|required'
         ]);
         #si pasavalidacio
         $data = $request->all();
         $data['fecha'] = Carbon::now();
         $data['user_id'] = $usuario->id;
-        #creamos envio
-        $envio = Envio::create($data);
-        return response()->json(['data' => $envio, 'code' => 201]);
+        #guardamos la imagen en nustra carpeta
+        $data['archivo'] = $request->archivo->store('');
+        #creamos caso
+        $caso = Caso::create($data);
+        #tomamos el archivo y lo guardamos en db
+        $archivo = new Archivo();
+        $archivo->nombre = $request->archivo->store('');
+        $archivo->caso_id = $caso->id;
+        #guardamos archivo
+        $archivo->save();
+        return response()->json(['data' => $caso, 'code' => 201]);
     }
 
 

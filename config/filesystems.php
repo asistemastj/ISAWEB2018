@@ -1,5 +1,5 @@
 <?php
-
+    
 return [
 
     /*
@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'default' => env('FILESYSTEM_DRIVER', 'local'),
+    'default' => env('FILESYSTEM_DRIVER', 'file'),
 
     /*
     |--------------------------------------------------------------------------
@@ -52,6 +52,13 @@ return [
             'driver' => 'local',
             'root' => storage_path('app/public'),
             'url' => env('APP_URL').'/storage',
+            'visibility' => 'public',
+        ],
+
+        #nuestro propio disco
+        'file' => [
+            'driver' => 'local',
+            'root' => public_path('files'),
             'visibility' => 'public',
         ],
 

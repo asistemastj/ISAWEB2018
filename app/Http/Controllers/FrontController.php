@@ -18,6 +18,10 @@ class FrontController extends Controller
     	return view('service');
     }
 
+    public function serviceDetail(){
+        return view('service-detail');
+    }
+
     public function location(){
     	return view('location');
     }

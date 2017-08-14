@@ -22,6 +22,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 Route::resource('archivos', 'Archivo\ArchivoController', ['only' => 'index']);
 #Area
 Route::resource('areas', 'Area\AreaController', ['only' => 'index']);
+Route::resource('areas.documentos', 'Area\AreaDocumentoController', ['only' => 'index']);
 #Caso
 Route::resource('casos', 'Caso\CasoController', ['only' => 'index']);
 Route::resource('casos.archivos', 'Caso\CasoArchivoController', ['except' => ['edit', 'show', 'update']]);

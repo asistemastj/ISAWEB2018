@@ -510,7 +510,7 @@
 									</p>
 								</div>
 								<div class="col-xs-12 col-sm-2">
-									<a href="contact-us.html" class="contact-us button">contact us</a>
+									<a href="{{route('contacto')}}" class="contact-us button">contact us</a>
 								</div>
 							</div>
 						</div>

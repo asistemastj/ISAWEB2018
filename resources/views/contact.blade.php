@@ -167,7 +167,7 @@
               <h5>DO YOU STILL HAVE A QUESTION REGARING OUR SERVICES?</h5>
               <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consequat elementum tempor. Duis porta lectus ut dui consequat. </p>
             </div>
-            <div class="col-xs-12 col-sm-2"> <a href="#" class="contact-us button">contact us</a> </div>
+            <div class="col-xs-12 col-sm-2"> <a href="{{route('contacto')}}" class="contact-us button">contact us</a> </div>
           </div>
         </div>
       </div>

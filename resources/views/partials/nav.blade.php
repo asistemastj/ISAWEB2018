@@ -48,20 +48,15 @@
 								</div>
 							</div>
 							<div class="col-xs-12 col-sm-3">
-								<a href="index.html" class="logo"> <img src="images/logo.png" alt="" /> </a>
+								<a href="{{route('home')}}" class="logo"> <img src="images/logo.png" alt="" /> </a>
 
 							</div>
 							<div class="col-xs-12 col-sm-9 custom-nav">
 								<nav>
 									<div id='cssmenu'>
 										<ul class="navigation">
-											<li class='active'>
-												<a href='javascript:void(0);'>Home</a>
-												<ul class="sub-menu">
-													<li>
-														<a href='index.html'>homepage 1</a>
-													</li>
-												</ul>
+											<li>
+												<a href="{{route('home')}}">Home</a>
 											</li>
 											<li>
 												<a href="{{route('nosotros')}}">about us</a>

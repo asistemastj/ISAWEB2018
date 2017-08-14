@@ -12,13 +12,13 @@
 */
 
 #vistas del frontend
-Route::get('/','FrontController@index');
-Route::get('/nosotros','FrontController@abousUs');
-Route::get('/servicios','FrontController@service');
-Route::get('/serviciosDetalle','FrontController@serviceDetail');
-Route::get('/ubicacion','FrontController@location');
-Route::get('/contacto','FrontController@contact');
-Route::get('/logros','FrontController@logros');
-Route::get('/equipo','FrontController@team');
-Route::get('/transporte','FrontController@transport');
-Route::get('/faq','FrontController@faq');
+Route::get('/','FrontController@index')->name('home');
+Route::get('/nosotros','FrontController@abousUs')->name('nosotros');
+Route::get('/servicios','FrontController@service')->name('servicios');
+Route::get('/serviciosDetalle','FrontController@serviceDetail')->name('serviciosDetalle');
+Route::get('/ubicacion','FrontController@location')->name('ubicacion');
+Route::get('/contacto','FrontController@contact')->name('contacto');
+Route::get('/logros','FrontController@logros')->name('logros');
+Route::get('/equipo','FrontController@team')->name('equipo');
+Route::get('/transporte','FrontController@transport')->name('transporte');
+Route::get('/faq','FrontController@faq')->name('faq');

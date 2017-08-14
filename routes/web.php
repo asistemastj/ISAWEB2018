@@ -11,7 +11,13 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
+#vistas del frontend
+Route::get('/','FrontController@index');
+Route::get('/nosotros','FrontController@abousUs');
+Route::get('/servicios','FrontController@service');
+Route::get('/ubicacion','FrontController@location');
+Route::get('/contacto','FrontController@contact');
+Route::get('/logros','FrontController@logros');
+Route::get('/equipo','FrontController@team');
+Route::get('/transporte','FrontController@transport');
+Route::get('/faq','FrontController@faq');

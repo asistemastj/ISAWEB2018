@@ -17,5 +17,5 @@ Route::get('/nosotros','FrontController@abousUs')->name('nosotros');
 Route::get('/servicios','FrontController@service')->name('servicios');
 Route::get('/ubicacion','FrontController@location')->name('ubicacion');
 Route::get('/contacto','FrontController@contact')->name('contacto');
-Route::get('/logros','FrontController@logros')->name('logros');
+Route::get('/historia','FrontController@logros')->name('historia');
 Route::get('/transporte','FrontController@transport')->name('transporte');

@@ -73,11 +73,11 @@
 											<a href="#"> <img src="images/truck-2.jpg" alt="" /> </a>
 										</figure>
 										<div class="service-text">
-											<h5>trucking service</h5>
+											<h5>Transporte de carga pesada</h5>
 											<p>
 												Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
 											</p>
-											<a class="services-link button button-hover" href="#">read more</a>
+											<a class="services-link button button-hover" href="#">Leer más</a>
 										</div>
 									</div>
 									<div class="service-tab zoom">
@@ -85,11 +85,11 @@
 											<a href="#"> <img src="images/dock-yard.jpg" alt="" /> </a>
 										</figure>
 										<div class="service-text">
-											<h5>LOGISTIC SERVICE</h5>
+											<h5>Transporte de combustible</h5>
 											<p>
 												Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
 											</p>
-											<a class="services-link button button-hover" href="#">read more</a>
+											<a class="services-link button button-hover" href="#">Leer más</a>
 										</div>
 									</div>
 									<div class="service-tab zoom">
@@ -97,11 +97,11 @@
 											<a href="#"> <img src="images/man.jpg" alt="" /> </a>
 										</figure>
 										<div class="service-text">
-											<h5>professional storage</h5>
+											<h5>transporte frigorifico</h5>
 											<p>
 												Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
 											</p>
-											<a class="services-link button button-hover" href="#">read more</a>
+											<a class="services-link button button-hover" href="#">Leer más</a>
 										</div>
 									</div>
 								</div>
@@ -115,91 +115,15 @@
 									<div class="more-services-text ">
 										<h3>Más sevicios</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-											Nunc consentum tempor. Duis porta lectus ut dui consequat, ut porttitor sapum. Nulla sagittis, turpis sit amet feugiat pretium, tellus tortoret consectetur nunc odio at dolor.
+											Tambien hacemos transporte a vehiculos pesador, melaza y otros productos, los cuales no son confiados por nuestros clientes, a los cuales siempre atendemos, para brindarle el sevicio que se merecen.
 										</p>
-										<a class="services-link button button-hover" href="#">view more services</a>
+										<a class="services-link button button-hover" href="#">Ver más servicios</a>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 					
-					<div class="testimonial ">
-						<div class="container">
-							<div class="row">
-								<div class="col-xs-12 center">
-									<div class="heading">
-										<span>Las Empresas que confian en nosotros</span>
-										<h2>testimonios</h2>
-									</div>
-
-									<div class="design-line">
-										<span class="design"></span>
-									</div>
-								</div>
-							</div>
-							<div class="testimonial-text" id="testimonial-text">
-								<div class="feedback">
-									<blockquote class="custom-quote">
-										<span class="fa fa-quote-left custom-fa"></span>
-										<p>
-											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc cons
-											entum tempor. Duis porta lectus ut dui consequat, ut porttitor sap
-											um. Nulla sagittis, turpis sit amet feugiat pretium, tellus tortor
-											et consectetur nunc odio at dolor.
-										</p>
-										<footer>
-											<h6>JOHNATHAN DOE <span>DESIGNER, THEME DESIGNER</span></h6>
-										</footer>
-									</blockquote>
-								</div>
-								<div class="feedback">
-									<blockquote class="custom-quote">
-										<span class="fa fa-quote-left custom-fa"></span>
-										<p>
-											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc cons
-											entum tempor. Duis porta lectus ut dui consequat, ut porttitor sap
-											um. Nulla sagittis, turpis sit amet feugiat pretium, tellus tortor
-											et consectetur nunc odio at dolor.
-										</p>
-										<footer>
-											<h6>JOHNATHAN DOE <span>DESIGNER, THEME DESIGNER</span></h6>
-										</footer>
-									</blockquote>
-								</div>
-								<div class="feedback">
-									<blockquote class="custom-quote">
-										<span class="fa fa-quote-left"></span>
-										<p>
-											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc cons
-											entum tempor. Duis porta lectus ut dui consequat, ut porttitor sap
-											um. Nulla sagittis, turpis sit amet feugiat pretium, tellus tortor
-											et consectetur nunc odio at dolor.
-										</p>
-										<footer>
-											<h6>JOHNATHAN DOE <span>DESIGNER, THEME DESIGNER</span></h6>
-										</footer>
-									</blockquote>
-								</div>
-								<div class="feedback">
-									<blockquote class="custom-quote">
-										<span class="fa fa-quote-left"></span>
-										<p>
-											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc cons
-											entum tempor. Duis porta lectus ut dui consequat, ut porttitor sap
-											um. Nulla sagittis, turpis sit amet feugiat pretium, tellus tortor
-											et consectetur nunc odio at dolor.
-										</p>
-										<footer>
-											<h6>JOHNATHAN DOE <span>DESIGNER, THEME DESIGNER</span></h6>
-										</footer>
-									</blockquote>
-								</div>
-							</div>
-
-						</div>
-					</div>
 					@include('partials.banner')
 				</div>
 	

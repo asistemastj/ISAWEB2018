@@ -71,7 +71,7 @@
 												<a href="#">Paginas</a>
                                                 <ul class="sub-menu">
                                                     <li>
-														<a href="{{route('logros')}}">Logros</a>
+														<a href="{{route('historia')}}">Historia</a>
 													</li>
                                                     <li>
 														<a href="{{route('transporte')}}">Transporte</a>

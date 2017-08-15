@@ -49,68 +49,55 @@
   
   <!-- Achivement Section -->
   <section class="achivement container">
-    <div class="heading"> <span>Nuestros</span>
-      <h3>Logros</h3>
+    <div class="heading"> <span>Nuestra</span>
+      <h3>Historia</h3>
     </div>
-    <div class="progress-graph"> <i class="base-line"> </i> <span class="button progress-btn"> Logros </span>
+    <div class="progress-graph"> <i class="base-line"> </i> <span class="button progress-btn"> Actualidad </span>
+      <article class="row">
+        <div class="col-md-6 progress-content-wrap right">
+          <figure class="right"> <img src="images/blog-pic.png" alt="" /> </figure>
+          <div class="progress-content ">
+            <div class="heading">
+              <h5>En 2015</h5>
+            </div>
+            <h6 class="h5"> Cambio de sede Trujillo </h6>
+            <p>La empresa se vio en la necesidad de cambiar la ubicacionde su sede principal, debido al crecimiento de la empresa.</p>
+          </div>
+        </div>
+      </article>
       <article class="row">
         <div class="col-md-6 progress-content-wrap">
-          <figure> <img src="images/blog-pic.jpg" alt="" /> </figure>
+          <figure class="right"> <img src="images/blog-pic.png" alt="" /> </figure>
           <div class="progress-content">
             <div class="heading">
-              <h5>Nov 2015</h5>
+              <h5>En 2012</h5>
             </div>
-            <h6 class="h5"> Etiam scelerisque tortor sed
-              risus non laoreet turpis </h6>
-            <p>Etiam ut justo ut sem molestie viverra id a massa pellentesque nonc tellus ur donec at dolor orci nulla et erat consequat porta mauris luctus sem lacinia et.</p>
+            <h6 class="h5"> Se inagura sede en Lima </h6>
+            <p>La empresa se expandea la ciudad de lima, abriendo sus oficinas en dicha ciudad.</p>
           </div>
         </div>
       </article>
       <article class="row">
         <div class="col-md-6 progress-content-wrap right">
-          <figure class="right"> <img src="images/blog-pic-1.jpg" alt="" /> </figure>
+          <figure> <img src="images/blog-pic.png" alt="" /> </figure>
           <div class="progress-content ">
             <div class="heading">
-              <h5>June 2015</h5>
+              <h5>Abil 2011</h5>
             </div>
-            <h6 class="h5"> Cras elit magna viverra cets dictum laoreet justo </h6>
-            <p>Praesent ullamcorper sapien eget sodales feugiat etiam ut justo ut sems molestie viverra id a massa pellentesque non tellus donec dolor orci nulla placerat.</p>
+            <h6 class="h5"> Ampliación del servicio </h6>
+            <p>En ese año se cambio nuevamente la razón social ahora la empresa se llamaria, Transportes y Servicios Generales Joselito S.A.C, que es el nombre con el que sigue en la actualidad, ya que no solo trasnportaria carga pesada.</p>
           </div>
         </div>
       </article>
       <article class="row">
         <div class="col-md-6 progress-content-wrap">
-          <figure class="right"> <img src="images/blog-pic-2.jpg" alt="" /> </figure>
+          <figure> <img src="images/blog-pic.png" alt="" /> </figure>
           <div class="progress-content">
             <div class="heading">
-              <h5>JAN 2015</h5>
+              <h5>MAR 1985</h5>
             </div>
-            <h6 class="h5"> Quisque iaculis lorem dolor vel tristique enim elit </h6>
-            <p>Cras sagittis est id tincidunt dict quisque iaculis lorem dolor Sodales eget ed lacus laoreet ultricies arcu fusce vel ac tincidunt ultrices curabitur pulvinar.</p>
-          </div>
-        </div>
-      </article>
-      <article class="row">
-        <div class="col-md-6 progress-content-wrap right">
-          <figure> <img src="images/blog-pic.jpg" alt="" /> </figure>
-          <div class="progress-content ">
-            <div class="heading">
-              <h5>AUG 2014</h5>
-            </div>
-            <h6 class="h5"> Viverra dictum laoreet tindc dunt auctor eu juso </h6>
-            <p>Etiam ut justo ut sem molestie viverra id a massa pellentesque nonc tellus ur donec at dolor orci nulla et erat consequat porta mauris luctus sem lacinia et.</p>
-          </div>
-        </div>
-      </article>
-      <article class="row">
-        <div class="col-md-6 progress-content-wrap">
-          <figure> <img src="images/blog-pic-1.jpg" alt="" /> </figure>
-          <div class="progress-content">
-            <div class="heading">
-              <h5>MAR 2014</h5>
-            </div>
-            <h6 class="h5"> Cras elit magna viverra cets dictum laoreet justo </h6>
-            <p>Praesent ullamcorper sapien eget sodales feugiat etiam ut justo ut sems molestie viverra id a massa pellentesque non tellus donec dolor orci nulla placerat.</p>
+            <h6 class="h5"> El inicio de Joselito </h6>
+            <p>En ese año se cambio el nombre a Transportes Joselito S.R. Ltda, ya que no tenia un nombre oficialcomo tal la empresa..</p>
           </div>
         </div>
       </article>

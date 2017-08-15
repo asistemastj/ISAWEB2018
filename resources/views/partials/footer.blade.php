@@ -27,7 +27,7 @@
 											<a href="{{route('ubicacion')}}">Ubicación</a>
 										</li>
 										<li>
-											<a href="{{route('logros')}}">Logros</a>
+											<a href="{{route('historia')}}">Historia</a>
 										</li>
 										<li>
 											<a href="{{route('contacto')}}">Contáctenos</a>

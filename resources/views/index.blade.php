@@ -107,52 +107,37 @@
 							<div class="row">
 								<div class="col-xs-12">
 									<div class="heading">
-										<span>LOGISTIC SERVICES</span>
-										<h2>OUR SERVICES</h2>
+										<span>Servicio de Carga</span>
+										<h2>NUESTRO SERVICIO</h2>
 									</div>
 								</div>
 							</div>
 							<div id="services-slides" class="services-slider">
 								<div class="slides-tab zoom">
 									<figure>
-										<a href="#"><img src="images/goods-train.jpg" alt="" /></a>
+										<a href="{{route('servicios')}}"><img src="images/goods-train.jpg" alt="" /></a>
 									</figure>
 									<div class="slides-text">
-										<h4><a href="#">GROUND SHIPPING</a></h4>
-										<p>
-											Lorem ipsum dolor sit amet, consectetur adip
-											iscing elit. Aenean in ante magna. Quisque
-											sodales, exid fermentum tempor.
-										</p>
-										<a href="#" class="read-more">read more <span>></span></a>
+										<h4><a href="{{route('servicios')}}">Transporte de carga pesada</a></h4>
+										<a href="{{route('servicios')}}" class="read-more">leer más <span>></span></a>
 									</div>
 								</div>
 								<div class="slides-tab zoom">
 									<figure>
-										<a href="#"><img src="images/plane.jpg" alt="" /></a>
+										<a href="{{route('servicios')}}"><img src="images/plane.jpg" alt="" /></a>
 									</figure>
 									<div class="slides-text">
-										<h4><a href="#">AIR FREIGHT</a></h4>
-										<p>
-											Lorem ipsum dolor sit amet, consectetur adip
-											iscing elit. Aenean in ante magna. Quisque
-											sodales, exid fermentum tempor.
-										</p>
-										<a href="#" class="read-more">read more <span>></span></a>
+										<h4><a href="{{route('servicios')}}">Transporte de conbustible</a></h4>
+										<a href="{{route('servicios')}}" class="read-more">leer más <span>></span></a>
 									</div>
 								</div>
 								<div class="slides-tab zoom">
 									<figure>
-										<a href="#"><img src="images/yard.jpg" alt="" /></a>
+										<a href="{{route('servicios')}}"><img src="images/yard.jpg" alt="" /></a>
 									</figure>
 									<div class="slides-text">
-										<h4><a href="#">SEA DELIVERY</a></h4>
-										<p>
-											Lorem ipsum dolor sit amet, consectetur adip
-											iscing elit. Aenean in ante magna. Quisque
-											sodales, exid fermentum tempor.
-										</p>
-										<a href="#" class="read-more">read more <span>></span></a>
+										<h4><a href="{{route('servicios')}}">TRANSPORTE FRIGORIFICO</a></h4>
+										<a href="{{route('servicios')}}" class="read-more">leer más <span>></span></a>
 									</div>
 								</div>
 								

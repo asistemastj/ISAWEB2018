@@ -57,24 +57,17 @@
                 <h2 class="h3"> servicio de transporte </h2>
               </div>
               <div class="air-fright-img-part"> <img src="images/trucks.jpg" alt="" />
-                <p> Etiam in mauris vestibulum ullamcorper sapien eget sodales feugiat etiam ut justo ut sem molestie viverra id a pellentesque non tellus urna donec at dolor orci nulla et erat consequat porta tellus nec lacinia lacus vivamus placerat posuere dictue lucven enatis mauris et luctus sem lacinia et etiam scelerisque tortor sed porta ultrices. </p>
-              </div>
-              <div class="air-fright-cont-wrap">
-                <h3 class="h5"> International courier solutions </h3>
-                <p> Morbi lectus arcu sodales eget lacus nec laoreet ultricies arcu fusce vel tincidunt nisi pellentesque interdum quam libero feugiat dignissim mi condimentum at pellentesque act volutpat. </p>
-                <p> Praesent ullamcorper sapien eget sodales feugiat etiam ut justo ut sem molestie viverra id a massa pellentesque non tellus urna
-                  donec at dolor orci nulla et erat consequat porta tellus nec lacinia lacus vivamus placerat posuere dictum nam luctus venenatis mauris et luctus sem lacinia nam luctus venenatis mauris et luctus sem lacinia et. </p>
+                <p> TRANSPORTES Y SERVICIOS GENERALES JOSELITO S.A.C. es una empresa de transporte terrestre especializados en el mercado peruano, iniciamos nuestras operaciones hace 38 años bajo el nombre de Transportes Paredes, con el objetivo de transportar mercancía en general, basándose para ello en los permisos de seguridad, calidad y tecnología. </p>
               </div>
               <div class="service-list-wrap">
-                <h3 class="h5"> Benefits </h3>
+                <h3 class="h5"> Beneficios </h3>
                 <ul class="service-list">
-                  <li> Sem molestie viverra id a massa pellentesque non tellus urna viverra id </li>
-                  <li> Lacinia lacus vivamus placerat posuere dictum nam venenated nunc </li>
-                  <li> Mauris et luctus sem lacinia nam luctus venenat doren turpis lacus elit </li>
+                  <li> Seguridad garantizada de sus envios desde su orignen hasta su destino. </li>
+                  <li> Conductores experimentados, puntuales y lo más importante RESPONSABLES. </li>
+                  <li> Una flota de vehiculos modernos, que cumplen con todas las normas de seguridad y certificaciones. </li>
                 </ul>
-                <p> Praesent ullamcorper sapien eget sodales feugiat etiam ut justo ut sem molestie viverra id a massa pellentesque non tellus urna
-                  donec at dolor orci nulla et erat consequat porta tellus nec lacinia lacus vivamus placerat. </p>
-                <strong>Contact us today on <a href="tel:5917890123">5917890123</a></strong> </div>
+                <p> Actualmente nos dedicamos al transporte de carga en general para la industria nacional por toda la red de carreteras especialmente de la costa peruana. Contamos con una moderna flota, conformada por 63 tractos remolcadores, 66 cisternas, 29 plataformas, 6 furgón refrigerado y personal altamente calificado, nuestras actividades se desarrollan en la sede principal Trujillo y la sede Lima. </p>
+                <strong>Contactanos hoy al: <a href="tel:994 029 631">994 029 631</a></strong> </div>
             </div>
             <div class="col-md-3 col-sm-4 col-xs-12">
               <div class="service-quote-wrap">

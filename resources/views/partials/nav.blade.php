@@ -74,9 +74,6 @@
 														<a href="{{route('logros')}}">Logros</a>
 													</li>
                                                     <li>
-														<a href="{{route('equipo')}}">Equipo</a>
-													</li>
-                                                    <li>
 														<a href="{{route('transporte')}}">Transporte</a>
 													</li>
 												</ul>

@@ -19,9 +19,6 @@
 										<li>
 											<a href="{{route('servicios')}}">Servicios</a>
 										</li>
-										<li>
-											<a href="{{route('equipo')}}">Equipo</a>
-										</li>
 									</ul>
 								</div>
 								<div class="quick-list">

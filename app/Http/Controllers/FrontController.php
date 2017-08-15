@@ -30,10 +30,6 @@ class FrontController extends Controller
     	return view('logros');
     }
 
-    public function team(){
-    	return view('team');
-    }
-
     public function transport(){
     	return view('transport');
     }

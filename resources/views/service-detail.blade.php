@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-		<title>Transport</title>
+		<title>Transportes Joselito</title>
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
 		<!-- Google Font -->

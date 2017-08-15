@@ -6,12 +6,12 @@
 							<div class="col-xs-12 col-sm-6">
 								<div class="mail">
 									<img src="images/icon-mail.png" alt="" />
-									<span>Escribenos al : <a class="email-us" href="mailto:info@transporttheme.com">info@transporttheme.com</a></span>
+									<span>Escribenos al : <a class="email-us" href="#">operaciones@transportesjoselito.com</a></span>
 								</div>
 							</div>
 							<div class="col-xs-12 col-sm-6">
 								<div class="social-wrap clearfix">
-									<a href="request-a-quote.html" class="request">request a quote</a>
+									<a href="request-a-quote.html" class="request">Solicita una cotización</a>
 									<ul class="social">
 										<li>
 											<a href="#"> <i class="fa fa-facebook"></i> </a>
@@ -42,7 +42,7 @@
 											<span class="transport">LLAMANOS AHORA PARA <span></span> TU TRANSPORTE</span>
 										</li>
 										<li>
-											<a href="tel:5917890123">591 7890 123</a>
+											<a href="tel:5917890123">994 029 631</a>
 										</li>
 									</ul>
 								</div>

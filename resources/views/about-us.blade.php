@@ -443,21 +443,9 @@
 
 						</div>
 					</div>
-					<div class="query ">
-						<div class="container">
-							<div class="row">
-								<div class="col-xs-12 col-sm-10">
-									<h5>DO YOU STILL HAVE A QUESTION REGARING OUR SERVICES?</h5>
-									<p>
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consequat elementum tempor. Duis porta lectus ut dui consequat.
-									</p>
-								</div>
-								<div class="col-xs-12 col-sm-2">
-									<a href="{{route('contacto')}}" class="button contact-us">contact us</a>
-								</div>
-							</div>
-						</div>
-					</div>
+					
+					@include('partials.banner')
+
 				</div>
 				<!--Section box ends Here -->
 			</section>

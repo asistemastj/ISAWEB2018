@@ -117,20 +117,9 @@
       <span class="button progress-btn btm"> built in 1998 </span> </div>
   </section>
   <!-- Achivement Section --> 
-  
+  @include('partials.banner')
   <!--Footer area starts Here -->
   <footer id="footer">
-    <div class="query ">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12 col-sm-10">
-            <h5>DO YOU STILL HAVE A QUESTION REGARING OUR SERVICES?</h5>
-            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consequat elementum tempor. Duis porta lectus ut dui consequat. </p>
-          </div>
-          <div class="col-xs-12 col-sm-2"> <a class="button contact-us" href="{{route('contacto')}}">contact us</a> </div>
-        </div>
-      </div>
-    </div>
     <!--Footer box starts Here -->
     <div class="footer  clearfix">
       <div class="container">

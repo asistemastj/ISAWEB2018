@@ -37,8 +37,8 @@
     <div class="banner-text">
       <div class="container">
         <div class="row">
-          <div class="col-xs-12"> <a href="#" class="shipping">ground shipping</a>
-            <h1>transport</h1>
+          <div class="col-xs-12">
+            <h1>transporte</h1>
           </div>
         </div>
       </div>
@@ -53,10 +53,10 @@
         <div class="container">
           <div class="row">
             <div class="col-md-9 col-sm-8 col-xs-12">
-              <div class="heading"> <span>our</span>
-                <h2 class="h3"> transport services </h2>
+              <div class="heading"> <span>nuestro</span>
+                <h2 class="h3"> servicio de transporte </h2>
               </div>
-              <div class="air-fright-img-part"> <img src="images/shape-one.jpg" alt="" />
+              <div class="air-fright-img-part"> <img src="images/trucks.jpg" alt="" />
                 <p> Etiam in mauris vestibulum ullamcorper sapien eget sodales feugiat etiam ut justo ut sem molestie viverra id a pellentesque non tellus urna donec at dolor orci nulla et erat consequat porta tellus nec lacinia lacus vivamus placerat posuere dictue lucven enatis mauris et luctus sem lacinia et etiam scelerisque tortor sed porta ultrices. </p>
               </div>
               <div class="air-fright-cont-wrap">
@@ -78,19 +78,10 @@
             </div>
             <div class="col-md-3 col-sm-4 col-xs-12">
               <div class="service-quote-wrap">
-                <div class="our-service-wrap">
-                  <h3 class="h5"> Our Services </h3>
-                  <ul class="our-service">
-                    <li> <a href="#"> <img src="svg/bullet-svg.svg" alt="" class="svg img-cont"/> Warehousing </a> </li>
-                    <li> <a href="#"> <img src="svg/bullet-svg.svg" alt="" class="svg img-cont"/> transport </a> </li>
-                    <li> <a href="#"> <img src="svg/bullet-svg.svg" alt="" class="svg img-cont"/> air freight </a> </li>
-                    <li> <a href="#"> <img src="svg/bullet-svg.svg" alt="" class="svg img-cont"/> storage </a> </li>
-                  </ul>
-                </div>
                 <div class="quote">
-                  <h3 class="h5"> want get a quote ? </h3>
-                  <p> Metus tempor faucibus maecenas eget consectetur curabitura hendrerit turpis donec condiment elit. </p>
-                  <a class="button contact-us" href="contact-us.html">request a quote</a> </div>
+                  <h3 class="h5"> quieres una cotización ? </h3>
+                  <p> Puedes mandarnos un email con total confianza, estaremos felices de responder a todas sus dudas, dele click al boton de abajo.</p>
+                  <a class="button contact-us" href="{{route('contacto')}}">Contactanos</a> </div>
               </div>
             </div>
           </div>

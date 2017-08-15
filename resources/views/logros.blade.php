@@ -38,8 +38,8 @@
     <div class="banner-text">
       <div class="container">
         <div class="row">
-          <div class="col-xs-12"> <a href="#" class="shipping">ground shipping</a>
-            <h1>transport</h1>
+          <div class="col-xs-12">
+            <h1>Transportes Joselito</h1>
           </div>
         </div>
       </div>
@@ -49,10 +49,10 @@
   
   <!-- Achivement Section -->
   <section class="achivement container">
-    <div class="heading"> <span>Our</span>
-      <h3>Achievement</h3>
+    <div class="heading"> <span>Nuestros</span>
+      <h3>Logros</h3>
     </div>
-    <div class="progress-graph"> <i class="base-line"> </i> <span class="button progress-btn"> achievement </span>
+    <div class="progress-graph"> <i class="base-line"> </i> <span class="button progress-btn"> Logros </span>
       <article class="row">
         <div class="col-md-6 progress-content-wrap">
           <figure> <img src="images/blog-pic.jpg" alt="" /> </figure>

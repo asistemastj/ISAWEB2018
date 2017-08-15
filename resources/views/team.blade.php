@@ -37,8 +37,8 @@
     <div class="banner-text">
       <div class="container">
         <div class="row">
-          <div class="col-xs-12"> <a href="#" class="shipping">ground shipping</a>
-            <h1>our team</h1>
+          <div class="col-xs-12">
+            <h1>Nuestro Equipo</h1>
           </div>
         </div>
       </div>

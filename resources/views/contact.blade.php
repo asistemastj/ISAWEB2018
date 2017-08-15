@@ -38,8 +38,7 @@
     <div class="banner-text">
       <div class="container">
         <div class="row">
-          <div class="col-xs-12"> <a href="#" class="shipping">ground shipping</a>
-            <h1>contact us</h1>
+            <h1>contactenos</h1>
           </div>
         </div>
       </div>
@@ -54,8 +53,8 @@
         <div class="container">
           <div class="row">
             <div class="col-xs-12 col-sm-6">
-              <div class="heading "> <span>our</span>
-                <h3>contact form</h3>
+              <div class="heading "> <span>Nuestro</span>
+                <h3>Formulario de Contacto</h3>
               </div>
               <div class="contact-form-box " ng-controller="FormController">
                 <form ng-submit="submitForm()" name="contactForm" method="post"  novalidate id="contact">
@@ -66,7 +65,7 @@
                     <input id="sub" class="contact-subject" type="text" placeholder="Subject*" ng-class="{'error' : errorSubject}" ng-model="formData.subject"/>
                     <textarea placeholder="Comment*" id="message" ng-model="formData.message" ng-class="{'error' : errorTextarea}"></textarea>
                     <!--<input id="submit" class="comment-submit qoute-sub" type="button"  value="submit">-->
-                    <button type="submit" class="comment-submit qoute-sub" ng-disabled="submitButtonDisabled">Submit</button>
+                    <button type="submit" class="comment-submit qoute-sub" ng-disabled="submitButtonDisabled">Enviar</button>
                   </div>
                   <div ng-class="{'submissionMessage' : submission}" ng-bind="submissionMessage" style="float:right; color: red;"></div>
                 </form>

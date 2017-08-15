@@ -62,15 +62,7 @@
 												<a href="{{route('nosotros')}}">Nosotros</a>
 											</li>
 											<li>
-												<a href="javascript:void(0);">Servicios</a>
-												<ul class="sub-menu">
-													<li>
-														<a href="{{route('servicios')}}">Servicio</a>
-													</li>
-													<li>
-														<a href="{{route('serviciosDetalle')}}">Detalles del Servicio</a>
-													</li>
-												</ul>
+												<a href="{{route('servicios')}}">Servicios</a>
 											</li>
 											<li>
 												<a href="{{route('ubicacion')}}">Ubicación</a>

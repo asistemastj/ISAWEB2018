@@ -45,8 +45,7 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-xs-12">
-								<a href="#" class="shipping">ground shipping</a>
-								<h1>locations</h1>
+								<h1>Ubicación</h1>
 							</div>
 						</div>
 					</div>
@@ -62,8 +61,8 @@
 							<div class="row">
 								<div class="col-xs-12">
 									<div class="heading">
-										<span>our</span>
-										<h3>locations</h3>
+										<span>Nuestra</span>
+										<h3>ubicación</h3>
 									</div>
 									<div class="our-office">
 										<div class="search-office">

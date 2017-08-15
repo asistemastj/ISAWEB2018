@@ -47,8 +47,7 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-xs-12">
-								<a href="#" class="shipping">ground shipping</a>
-								<h1>service details</h1>
+								<h1>Servicios</h1>
 							</div>
 						</div>
 					</div>

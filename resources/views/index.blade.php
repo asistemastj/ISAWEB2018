@@ -57,7 +57,7 @@
 									REQUIREMENTS</h2>
 								</div>
 								<div class="caption lfr medium_grey"  data-x="left" data-y="center" data-speed="300" data-start="2000">
-									<a href="service.html" class="services-link">our services</a>
+									<a href="{{route('servicios')}}" class="services-link">Nuestro Servicio</a>
 								</div>
 							</div>
 						</li>
@@ -73,7 +73,7 @@
 									REQUIREMENTS</h2>
 								</div>
 								<div class="caption lfr medium_grey" data-x="left" data-y="center" data-speed="300" data-start="2000">
-									<a href="service.html" class="services-link">our services</a>
+									<a href="{{route('servicios')}}" class="services-link">Nuestro Servicio</a>
 								</div>
 							</div>
 						</li>
@@ -89,7 +89,7 @@
 									REQUIREMENTS</h2>
 								</div>
 								<div class="caption lfr medium_grey"  data-x="left" data-y="center" data-speed="300" data-start="2000">
-									<a href="service.html" class="services-link">our services</a>
+									<a href="{{route('servicios')}}" class="services-link">Nuestro Servicio</a>
 								</div>
 							</div>
 						</li>

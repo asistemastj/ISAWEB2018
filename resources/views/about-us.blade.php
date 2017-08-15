@@ -38,13 +38,11 @@
 				<div class="banner-image parallax">
 
 				</div>
-
 				<div class="banner-text">
 					<div class="container">
 						<div class="row">
 							<div class="col-xs-12">
-								<a href="#" class="shipping">ground shipping</a>
-								<h1>about us</h1>
+								<h1>Nosotros</h1>
 							</div>
 						</div>
 					</div>

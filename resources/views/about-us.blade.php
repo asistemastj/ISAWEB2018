@@ -62,16 +62,16 @@
 								<div class="col-xs-12 col-sm-8">
 									<div class="amazing-text">
 										<div class="heading">
-											<span>amazing features</span>
-											<h3>about us</h3>
+											<span>un pequeña reseña sobre</span>
+											<h3>nosotros</h3>
 										</div>
 										<p>
-											Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the.
+											TRANSPORTES Y SERVICIOS GENERALES JOSELITO S.A.C. es una empresa de transporte terrestre especializados en el mercado peruano, iniciamos nuestras operaciones hace 38 años bajo el nombre de Transportes Paredes, con el objetivo de transportar mercancía en general, basándose para ello en los permisos de seguridad, calidad y tecnología.
 										</p>
 										<p>
-											Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the.
+											Actualmente nos dedicamos al transporte de carga en general para la industria nacional por toda la red de carreteras especialmente de la costa peruana. Contamos con una moderna flota, conformada por 63 tractos remolcadores, 66 cisternas, 29 plataformas, 6 furgón refrigerado y personal altamente calificado, nuestras actividades se desarrollan en la sede principal Trujillo y la sede Lima.
 										</p>
-										<a href="contact-us.html" class="button contact-us">contact us</a>
+										<a href="{{route('contacto')}}" class="button contact-us">contactanos</a>
 									</div>
 								</div>
 							</div>
@@ -83,14 +83,9 @@
 								<div class="col-xs-12">
 									<div class="features-text">
 										<div class="heading">
-											<span>AMAZING FEATURES</span>
-											<h3>QUICKES DELIVERY</h3>
+											<span>nuestros</span>
+											<h3>valores</h3>
 										</div>
-
-										<p>
-											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut nisi et diam luctus efficitur quis porta nisl. Proin vel cursus turpis. Morbi vitae rhoncus elit, in varius ex. Vestib
-											ulum et tristique quam. Aenean ut massa ipsum. Phasellus venenatis neque vehicula leo hendrerit cursus.
-										</p>
 									</div>
 								</div>
 								<div class="col-xs-12 col-sm-6">
@@ -98,30 +93,27 @@
 
 										<i class="icon-ship"></i>
 										<div class="tab-text">
-											<h5>QUICKEST CARGO</h5>
+											<h5>COMPROMISO</h5>
 											<p>
-												Lorem ipsum dolor sit amet, consctetur adipiscing elit. Aenean in
-												ante magna. Quisque will be appear here.
+												Vamos más allá de cumplir con una obligación, ponemos toda nuestra capacidad para sacar adelante aquello que se nos ha confiado.
 											</p>
 										</div>
 									</div>
 									<div class="features-tab bottom-border">
 										<i class="icon-plane"></i>
 										<div class="tab-text">
-											<h5>GROUND SHIPPING</h5>
+											<h5>SEGURIDAD</h5>
 											<p>
-												Lorem ipsum dolor sit amet, consctetur adipiscing elit. Aenean in
-												ante magna. Quisque will be appear here.
+												Nos comprometemos siempre con lo que podemos cumplir, informado siempre de cualquier amenaza de incumplimiento de acuerdos comprometidos. Resolveremos inmediatamente cualquier acuerdo.
 											</p>
 										</div>
 									</div>
 									<div class="features-tab">
 										<i class="icon-truck"></i>
 										<div class="tab-text">
-											<h5>cargo van available</h5>
+											<h5>CONFIABILIDAD</h5>
 											<p>
-												Lorem ipsum dolor sit amet, consctetur adipiscing elit. Aenean in
-												ante magna. Quisque will be appear here.
+												Velamos porque la información confidencial de nuestro clientes se maneje con absoluta discreción y reserva, para generar un ambiente comercial exitoso.
 											</p>
 										</div>
 									</div>
@@ -130,20 +122,18 @@
 									<div class="features-tab bottom-border">
 										<i class="icon-train"></i>
 										<div class="tab-text">
-											<h5>FAST AIR FREIGHT</h5>
+											<h5>HONESTIDAD</h5>
 											<p>
-												Lorem ipsum dolor sit amet, consctetur adipiscing elit. Aenean in
-												ante magna. Quisque will be appear here.
+												Actuamos con transparencia en todos nuestros procesos y procedimientos para generar confiabilidad a nuestros  cliente.
 											</p>
 										</div>
 									</div>
 									<div class="features-tab bottom-border">
 										<i class="icon-clock"></i>
 										<div class="tab-text">
-											<h5>TIMELY DELIVERY</h5>
+											<h5>PUNTUALIDAD</h5>
 											<p>
-												Lorem ipsum dolor sit amet, consctetur adipiscing elit. Aenean in
-												ante magna. Quisque will be appear here.
+												Estamos comprometidos en aportar nuestra experiencia y conocimiento para lograr satisfacer las necesidades de nuestros clientes con entregas oportunas de las mercancías encomendadas en el tiempo establecido.
 											</p>
 										</div>
 									</div>
@@ -151,10 +141,9 @@
 									<div class="features-tab">
 										<i class="icon-globe"></i>
 										<div class="tab-text">
-											<h5>worldwide service</h5>
+											<h5>CALIDAD</h5>
 											<p>
-												Lorem ipsum dolor sit amet, consctetur adipiscing elit. Aenean in
-												ante magna. Quisque will be appear here.
+												Nuestro objetivo principal es ofrecer un servicio de calidad, por eso nuestro compromiso es la seguridad e integridad de la carga, desde el momento del cargue hasta su destino final en el sitio de descargue.
 											</p>
 										</div>
 									</div>

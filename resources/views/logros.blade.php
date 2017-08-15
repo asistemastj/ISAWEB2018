@@ -114,7 +114,7 @@
           </div>
         </div>
       </article>
-      <span class="button progress-btn btm"> built in 1998 </span> </div>
+      <span class="button progress-btn btm"> fundada en 1971 </span> </div>
   </section>
   <!-- Achivement Section --> 
   @include('partials.banner')

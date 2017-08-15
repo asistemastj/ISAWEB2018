@@ -155,48 +155,7 @@
 										<a href="#" class="read-more">read more <span>></span></a>
 									</div>
 								</div>
-								<div class="slides-tab zoom">
-									<figure>
-										<a href="#"><img src="images/goods-train.jpg" alt="" /></a>
-									</figure>
-									<div class="slides-text">
-										<h4><a href="#">GROUND SHIPPING</a></h4>
-										<p>
-											Lorem ipsum dolor sit amet, consectetur adip
-											iscing elit. Aenean in ante magna. Quisque
-											sodales, exid fermentum tempor.
-										</p>
-										<a href="#" class="read-more">read more <span>></span></a>
-									</div>
-								</div>
-								<div class="slides-tab zoom">
-									<figure>
-										<a href="#"><img src="images/plane.jpg" alt="" /></a>
-									</figure>
-									<div class="slides-text">
-										<h4><a href="#">AIR FREIGHT</a></h4>
-										<p>
-											Lorem ipsum dolor sit amet, consectetur adip
-											iscing elit. Aenean in ante magna. Quisque
-											sodales, exid fermentum tempor.
-										</p>
-										<a href="#" class="read-more">read more <span>></span></a>
-									</div>
-								</div>
-								<div class="slides-tab zoom">
-									<figure>
-										<a href="#"><img src="images/yard.jpg" alt="" /></a>
-									</figure>
-									<div class="slides-text">
-										<h4><a href="#">SEA DELIVERY</a></h4>
-										<p>
-											Lorem ipsum dolor sit amet, consectetur adip
-											iscing elit. Aenean in ante magna. Quisque
-											sodales, exid fermentum tempor.
-										</p>
-										<a href="#" class="read-more">read more <span>></span></a>
-									</div>
-								</div>
+								
 							</div>
 						</div>
 					</div>
@@ -293,10 +252,7 @@
 									</div>
 
 									<p>
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consequat elem
-										entum tempor. Duis porta lectus ut dui consequat, ut porttitor sapien bibend
-										um. Nulla sagittis, turpis sit amet feugiat pretium, tellus tortor aliquam nibh,
-										et consectetur nunc odio at dolor.
+										Nuestra visión es llegar a ser líder en transporte de carga en general en todo el Perú, generando valor para nuestros clientes, trabajadores y accionista.
 									</p>
 								</div>
 							</div>
@@ -304,9 +260,7 @@
 								<blockquote class="custom-blockquote">
 									<div class="spanish">
 										<p>
-											Integer quis convallis dui, ac dignissim eros. Class aptent tacit
-											sociosqu ad litora torquent per conubia nostra, per inceptos
-											himenaeos. Nulla pharetra lorem non lorem pharetra.
+											Proveer servicios de transporte especializado, eficiente y seguro, para cubrir las necesidades y expectativas de calidad de nuestros clientes.
 										</p>
 									</div>
 									<footer class="mission">

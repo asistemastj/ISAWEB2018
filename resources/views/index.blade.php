@@ -288,8 +288,8 @@
 							<div class="about-us">
 								<div class="description">
 									<div class="heading">
-										<span>LITTLE ABOUT US</span>
-										<h3>ABOUT TRANSPORT KING</h3>
+										<span>Un poco de nosotros</span>
+										<h3>SOBRE TRANSPORTES JOSELITO</h3>
 									</div>
 
 									<p>
@@ -310,100 +310,22 @@
 										</p>
 									</div>
 									<footer class="mission">
-										<h5>OUR MISSION STATEMENT</h5>
-										<span>MESSAGE FROM THE DESK OF OUR MANAGING DIRECTOR</span>
+										<h5>Nuestra Misión</h5>
+										<span>Mensaje del Gerente General</span>
 									</footer>
 								</blockquote>
 							</div>
 
 						</div>
 					</div>
-					<div class="news">
-						<div class="container">
-							<div class="row">
-								<div class="col-xs-12 center">
-									<div class="heading">
-										<span>FROM OUR BLOG</span>
-										<h2>LATEST NEWS</h2>
-									</div>
-
-									<div class="design-line">
-										<span class="design"></span>
-									</div>
-								</div>
-								<div class="news-section">
-									<div class="col-xs-12 col-sm-4">
-										<div class="slides-tab zoom">
-											<figure>
-												<a href="#"><img src="images/courier-box.jpg" alt="" /></a>
-												<div class="date">
-													<small>july</small><span>05</span>
-												</div>
-											</figure>
-											<div class="slides-text">
-												<h5><a href="#">QUALITY CARGO SERVICES AT
-												AFFORDABLE PRICE</a></h5>
-												<p>
-													Lorem ipsum dolor sit amet, consctetur adip
-													iscing elit. Aenean in ante magna.
-												</p>
-												<a href="#" class="doe">JOHNATHAN DOE</a>
-												<a href="#" class="comments">9 comments</a>
-											</div>
-										</div>
-
-									</div>
-									<div class="col-xs-12 col-sm-4">
-										<div class="slides-tab zoom">
-											<figure>
-												<a href="#"><img src="images/train-yard.jpg" alt="" /></a>
-												<div class="date">
-													<small>july</small><span>05</span>
-												</div>
-											</figure>
-											<div class="slides-text">
-												<h5><a href="#">WE HAVE STARTED NEW SECTION
-												IN GROUND SHIPPING</a></h5>
-												<p>
-													Lorem ipsum dolor sit amet, consctetur adip
-													iscing elit. Aenean in ante magna.
-												</p>
-												<a href="#" class="doe">JOHNATHAN DOE</a>
-												<a href="#" class="comments">9 comments</a>
-											</div>
-										</div>
-									</div>
-									<div class="col-xs-12 col-sm-4">
-										<div class="slides-tab zoom">
-											<figure>
-												<a href="#"><img src="images/goods-ship.jpg" alt="" /></a>
-												<div class="date">
-													<small>july</small><span>05</span>
-												</div>
-											</figure>
-											<div class="slides-text">
-												<h5><a href="#">CARGO SHIPPING AVAILABLE AT
-												GOOD DISCOUNTS</a></h5>
-												<p>
-													Lorem ipsum dolor sit amet, consctetur adip
-													iscing elit. Aenean in ante magna.
-												</p>
-												<a href="#" class="doe">JOHNATHAN DOE</a>
-												<a href="#" class="comments">9 comments</a>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+					
 					<div class="testimonial">
 						<div class="container">
 							<div class="row">
 								<div class="col-xs-12 center">
 									<div class="heading">
-										<span>what people say</span>
-										<h2>testimonials</h2>
+										<span>Las Empresas que confian en nosotros</span>
+										<h2>testimonios</h2>
 									</div>
 
 									<div class="design-line">
@@ -429,34 +351,6 @@
 								<div class="feedback">
 									<blockquote class="custom-quote">
 										<span class="fa fa-quote-left custom-fa"></span>
-										<p>
-											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc cons
-											entum tempor. Duis porta lectus ut dui consequat, ut porttitor sap
-											um. Nulla sagittis, turpis sit amet feugiat pretium, tellus tortor
-											et consectetur nunc odio at dolor.
-										</p>
-										<footer>
-											<h6>JOHNATHAN DOE <span>DESIGNER, THEME DESIGNER</span></h6>
-										</footer>
-									</blockquote>
-								</div>
-								<div class="feedback">
-									<blockquote class="custom-quote">
-										<span class="fa fa-quote-left"></span>
-										<p>
-											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc cons
-											entum tempor. Duis porta lectus ut dui consequat, ut porttitor sap
-											um. Nulla sagittis, turpis sit amet feugiat pretium, tellus tortor
-											et consectetur nunc odio at dolor.
-										</p>
-										<footer>
-											<h6>JOHNATHAN DOE <span>DESIGNER, THEME DESIGNER</span></h6>
-										</footer>
-									</blockquote>
-								</div>
-								<div class="feedback">
-									<blockquote class="custom-quote">
-										<span class="fa fa-quote-left"></span>
 										<p>
 											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc cons
 											entum tempor. Duis porta lectus ut dui consequat, ut porttitor sap

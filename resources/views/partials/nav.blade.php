@@ -79,14 +79,13 @@
                                                     <li>
 														<a href="{{route('transporte')}}">Transporte</a>
 													</li>
-                                                    <li>
-														<a href="{{route('faq')}}">FAQ</a>
-													</li>
-													
 												</ul>
 											</li>
 											<li>
 												<a href="{{route('contacto')}}">Contactanos</a>
+											</li>
+											<li>
+												<a href="#">Intranet</a>
 											</li>
 										</ul>
 									</div>

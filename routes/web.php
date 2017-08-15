@@ -20,4 +20,3 @@ Route::get('/contacto','FrontController@contact')->name('contacto');
 Route::get('/logros','FrontController@logros')->name('logros');
 Route::get('/equipo','FrontController@team')->name('equipo');
 Route::get('/transporte','FrontController@transport')->name('transporte');
-Route::get('/faq','FrontController@faq')->name('faq');

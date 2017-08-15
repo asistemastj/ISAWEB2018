@@ -58,111 +58,13 @@
 			<section id="section">
 				<!--Section box starts Here -->
 				<div class="section">
-					<div class="services ">
-						<div class="container">
-							<div class="row">
-								<div class="col-xs-12">
-									<div class="heading">
-										<span>LOGISTIC SERVICES</span>
-										<h2>OUR SERVICES</h2>
-									</div>
-								</div>
-							</div>
-							<div id="services-slides" class="services-slider">
-								<div class="slides-tab zoom">
-									<figure>
-										<a href="#"><img src="images/goods-train.jpg" alt="" /></a>
-									</figure>
-									<div class="slides-text">
-										<h4><a href="#">GROUND SHIPPING</a></h4>
-										<p>
-											Lorem ipsum dolor sit amet, consectetur adip
-											iscing elit. Aenean in ante magna. Quisque
-											sodales, exid fermentum tempor.
-										</p>
-										<a href="#" class="read-more">read more <span>></span></a>
-									</div>
-								</div>
-								<div class="slides-tab zoom">
-									<figure>
-										<a href="#"><img src="images/plane.jpg" alt="" /></a>
-									</figure>
-									<div class="slides-text">
-										<h4><a href="#">AIR FREIGHT</a></h4>
-										<p>
-											Lorem ipsum dolor sit amet, consectetur adip
-											iscing elit. Aenean in ante magna. Quisque
-											sodales, exid fermentum tempor.
-										</p>
-										<a href="#" class="read-more">read more <span>></span></a>
-									</div>
-								</div>
-								<div class="slides-tab zoom">
-									<figure>
-										<a href="#"><img src="images/yard.jpg" alt="" /></a>
-									</figure>
-									<div class="slides-text">
-										<h4><a href="#">SEA DELIVERY</a></h4>
-										<p>
-											Lorem ipsum dolor sit amet, consectetur adip
-											iscing elit. Aenean in ante magna. Quisque
-											sodales, exid fermentum tempor.
-										</p>
-										<a href="#" class="read-more">read more <span>></span></a>
-									</div>
-								</div>
-								<div class="slides-tab zoom">
-									<figure>
-										<a href="#"><img src="images/goods-train.jpg" alt="" /></a>
-									</figure>
-									<div class="slides-text">
-										<h4><a href="#">GROUND SHIPPING</a></h4>
-										<p>
-											Lorem ipsum dolor sit amet, consectetur adip
-											iscing elit. Aenean in ante magna. Quisque
-											sodales, exid fermentum tempor.
-										</p>
-										<a href="#" class="read-more">read more <span>></span></a>
-									</div>
-								</div>
-								<div class="slides-tab zoom">
-									<figure>
-										<a href="#"><img src="images/plane.jpg" alt="" /></a>
-									</figure>
-									<div class="slides-text">
-										<h4><a href="#">AIR FREIGHT</a></h4>
-										<p>
-											Lorem ipsum dolor sit amet, consectetur adip
-											iscing elit. Aenean in ante magna. Quisque
-											sodales, exid fermentum tempor.
-										</p>
-										<a href="#" class="read-more">read more <span>></span></a>
-									</div>
-								</div>
-								<div class="slides-tab zoom">
-									<figure>
-										<a href="#"><img src="images/yard.jpg" alt="" /></a>
-									</figure>
-									<div class="slides-text">
-										<h4><a href="#">SEA DELIVERY</a></h4>
-										<p>
-											Lorem ipsum dolor sit amet, consectetur adip
-											iscing elit. Aenean in ante magna. Quisque
-											sodales, exid fermentum tempor.
-										</p>
-										<a href="#" class="read-more">read more <span>></span></a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
 					<div class="other-services ">
 						<div class="container">
 							<div class="row">
 								<div class="col-xs-12 clearfix">
 									<div class="heading">
-										<span>other</span>
-										<h3>SERVICES</h3>
+										<span>nuestros</span>
+										<h3>servicios</h3>
 									</div>
 								</div>
 								<div class="col-xs-12 service-category">
@@ -211,7 +113,7 @@
 							<div class="row">
 								<div class="col-xs-12">
 									<div class="more-services-text ">
-										<h3>more services</h3>
+										<h3>Más sevicios</h3>
 										<p>
 											Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 											Nunc consentum tempor. Duis porta lectus ut dui consequat, ut porttitor sapum. Nulla sagittis, turpis sit amet feugiat pretium, tellus tortoret consectetur nunc odio at dolor.
@@ -222,59 +124,14 @@
 							</div>
 						</div>
 					</div>
-					<div class="more-services ">
-						<div class="container">
-							<div class="row">
-								<div class="col-xs-12 col-sm-3">
-									<div class="heading">
-										<span>more</span>
-										<h3>services</h3>
-										<p>
-											Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.
-										</p>
-									</div>
-								</div>
-								<div class="col-xs-12 col-sm-3 more-slides">
-
-									<div class="more-tab zoom">
-										<figure>
-											<a href="#"> <img src="images/train-yard-2.jpg" alt="" /> </a>
-										</figure>
-										<div class="more-text">
-											<h6><a href="#">service heading</a></h6>
-										</div>
-									</div>
-								</div>
-								<div class="col-xs-12 col-sm-3 more-slides">
-									<div class="more-tab zoom">
-										<figure>
-											<a href="#"> <img src="images/courier-box-2.jpg" alt="" /> </a>
-										</figure>
-										<div class="more-text">
-											<h6><a href="#">service heading</a></h6>
-										</div>
-									</div>
-								</div>
-								<div class="col-xs-12 col-sm-3 more-slides">
-									<div class="more-tab zoom">
-										<figure>
-											<a href="#"> <img src="images/goods-ship-2.jpg" alt="" /> </a>
-										</figure>
-										<div class="more-text">
-											<h6><a href="#">service heading</a></h6>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+					
 					<div class="testimonial ">
 						<div class="container">
 							<div class="row">
 								<div class="col-xs-12 center">
 									<div class="heading">
-										<span>what people say</span>
-										<h2>testimonials</h2>
+										<span>Las Empresas que confian en nosotros</span>
+										<h2>testimonios</h2>
 									</div>
 
 									<div class="design-line">
@@ -300,34 +157,6 @@
 								<div class="feedback">
 									<blockquote class="custom-quote">
 										<span class="fa fa-quote-left custom-fa"></span>
-										<p>
-											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc cons
-											entum tempor. Duis porta lectus ut dui consequat, ut porttitor sap
-											um. Nulla sagittis, turpis sit amet feugiat pretium, tellus tortor
-											et consectetur nunc odio at dolor.
-										</p>
-										<footer>
-											<h6>JOHNATHAN DOE <span>DESIGNER, THEME DESIGNER</span></h6>
-										</footer>
-									</blockquote>
-								</div>
-								<div class="feedback">
-									<blockquote class="custom-quote">
-										<span class="fa fa-quote-left"></span>
-										<p>
-											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc cons
-											entum tempor. Duis porta lectus ut dui consequat, ut porttitor sap
-											um. Nulla sagittis, turpis sit amet feugiat pretium, tellus tortor
-											et consectetur nunc odio at dolor.
-										</p>
-										<footer>
-											<h6>JOHNATHAN DOE <span>DESIGNER, THEME DESIGNER</span></h6>
-										</footer>
-									</blockquote>
-								</div>
-								<div class="feedback">
-									<blockquote class="custom-quote">
-										<span class="fa fa-quote-left"></span>
 										<p>
 											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc cons
 											entum tempor. Duis porta lectus ut dui consequat, ut porttitor sap

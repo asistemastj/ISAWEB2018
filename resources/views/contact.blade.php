@@ -82,8 +82,8 @@
           <div class="container">
             <div class="row">
               <div class="col-xs-12">
-                <div class="heading"> <span>more</span>
-                  <h3>locations</h3>
+                <div class="heading"> <span>Más</span>
+                  <h3>ubicaciones</h3>
                 </div>
               </div>
             </div>
@@ -92,63 +92,21 @@
             <div class="row">
               <div id="location-slides" class="location-slider">
                 <div class="location-slide-tab">
-                  <h6>canada</h6>
+                  <h6>Lima</h6>
                   <address>
                   Second Street Nager <br />
                   Howysala tower, canada 8856
                   </address>
                   <span class="call">call : <a href="tel:885955485596">8859 5548 5596</a></span> <span class="location-email">email : <a href="mailto:info@trucker.com"> info@trucker.com</a></span> </div>
                 <div class="location-slide-tab">
-                  <h6>singapore</h6>
+                  <h6>Trujillo</h6>
                   <address>
-                  Second Street Nager <br />
-                  Howysala tower, canada 8856
+                  Lote N°16-B2 Nro. 327 Ex-Fundo Larrea<br />
+                  La Libertad - Trujillo - Moche - Perú
                   </address>
                   <span class="call">call : <a href="tel:885955485596">8859 5548 5596</a></span> <span class="location-email">email : <a href="mailto:info@trucker.com"> info@trucker.com</a></span> </div>
                 <div class="location-slide-tab">
-                  <h6>malesia</h6>
-                  <address>
-                  Second Street Nager <br />
-                  Howysala tower, canada 8856
-                  </address>
-                  <span class="call">call : <a href="tel:885955485596">8859 5548 5596</a></span> <span class="location-email">email : <a href="mailto:info@trucker.com"> info@trucker.com</a></span> </div>
-                <div class="location-slide-tab">
-                  <h6>canada</h6>
-                  <address>
-                  Second Street Nager <br />
-                  Howysala tower, canada 8856
-                  </address>
-                  <span class="call">call : <a href="tel:885955485596">8859 5548 5596</a></span> <span class="location-email">email : <a href="mailto:info@trucker.com"> info@trucker.com</a></span> </div>
-                <div class="location-slide-tab">
-                  <h6>singapore</h6>
-                  <address>
-                  Second Street Nager <br />
-                  Howysala tower, canada 8856
-                  </address>
-                  <span class="call">call : <a href="tel:885955485596">8859 5548 5596</a></span> <span class="location-email">email : <a href="mailto:info@trucker.com"> info@trucker.com</a></span> </div>
-                <div class="location-slide-tab">
-                  <h6>malesia</h6>
-                  <address>
-                  Second Street Nager <br />
-                  Howysala tower, canada 8856
-                  </address>
-                  <span class="call">call : <a href="tel:885955485596">8859 5548 5596</a></span> <span class="location-email">email : <a href="mailto:info@trucker.com"> info@trucker.com</a></span> </div>
-                <div class="location-slide-tab">
-                  <h6>canada</h6>
-                  <address>
-                  Second Street Nager <br />
-                  Howysala tower, canada 8856
-                  </address>
-                  <span class="call">call : <a href="tel:885955485596">8859 5548 5596</a></span> <span class="location-email">email : <a href="mailto:info@trucker.com"> info@trucker.com</a></span> </div>
-                <div class="location-slide-tab">
-                  <h6>singapore</h6>
-                  <address>
-                  Second Street Nager <br />
-                  Howysala tower, canada 8856
-                  </address>
-                  <span class="call">call : <a href="tel:885955485596">8859 5548 5596</a></span> <span class="location-email">email : <a href="mailto:info@trucker.com"> info@trucker.com</a></span> </div>
-                <div class="location-slide-tab">
-                  <h6>malesia</h6>
+                  <h6>Yurimaguas</h6>
                   <address>
                   Second Street Nager <br />
                   Howysala tower, canada 8856

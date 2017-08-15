@@ -37,8 +37,4 @@ class FrontController extends Controller
     public function transport(){
     	return view('transport');
     }
-
-    public function faq(){
-    	return view('faq');
-    }
 }

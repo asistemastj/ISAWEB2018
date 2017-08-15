@@ -6,7 +6,7 @@
 							<div class="col-xs-12 col-sm-6">
 								<div class="mail">
 									<img src="images/icon-mail.png" alt="" />
-									<span>Email us at : <a class="email-us" href="mailto:info@transporttheme.com">info@transporttheme.com</a></span>
+									<span>Escribenos al : <a class="email-us" href="mailto:info@transporttheme.com">info@transporttheme.com</a></span>
 								</div>
 							</div>
 							<div class="col-xs-12 col-sm-6">
@@ -39,7 +39,7 @@
 									<ul>
 										<li>
 											<img src="images/iphone.png" alt="" />
-											<span class="transport">CALL US NOW FOR <span></span> YOUR TRANSPORT</span>
+											<span class="transport">LLAMANOS AHORA PARA <span></span> TU TRANSPORTE</span>
 										</li>
 										<li>
 											<a href="tel:5917890123">591 7890 123</a>
@@ -56,45 +56,45 @@
 									<div id='cssmenu'>
 										<ul class="navigation">
 											<li>
-												<a href="{{route('home')}}">Home</a>
+												<a href="{{route('home')}}">Inicio</a>
 											</li>
 											<li>
-												<a href="{{route('nosotros')}}">about us</a>
+												<a href="{{route('nosotros')}}">Nosotros</a>
 											</li>
 											<li>
-												<a href="javascript:void(0);">services</a>
+												<a href="javascript:void(0);">Servicios</a>
 												<ul class="sub-menu">
 													<li>
-														<a href="{{route('servicios')}}">service</a>
+														<a href="{{route('servicios')}}">Servicio</a>
 													</li>
 													<li>
-														<a href="{{route('serviciosDetalle')}}">services details</a>
+														<a href="{{route('serviciosDetalle')}}">Detalles del Servicio</a>
 													</li>
 												</ul>
 											</li>
 											<li>
-												<a href="{{route('ubicacion')}}">location</a>
+												<a href="{{route('ubicacion')}}">Ubicación</a>
 											</li>
 											<li>
-												<a href="#">pages</a>
+												<a href="#">Paginas</a>
                                                 <ul class="sub-menu">
                                                     <li>
-														<a href="{{route('logros')}}">achivement</a>
+														<a href="{{route('logros')}}">Logros</a>
 													</li>
                                                     <li>
-														<a href="{{route('equipo')}}">team</a>
+														<a href="{{route('equipo')}}">Equipo</a>
 													</li>
                                                     <li>
-														<a href="{{route('transporte')}}">transport</a>
+														<a href="{{route('transporte')}}">Transporte</a>
 													</li>
                                                     <li>
-														<a href="{{route('faq')}}">faq</a>
+														<a href="{{route('faq')}}">FAQ</a>
 													</li>
 													
 												</ul>
 											</li>
 											<li>
-												<a href="{{route('contacto')}}">contact</a>
+												<a href="{{route('contacto')}}">Contactanos</a>
 											</li>
 										</ul>
 									</div>

@@ -52,9 +52,9 @@
 									<a href="#" class="shipping">envio por tierra</a>
 								</div>
 								<div class="caption sfb big_orange clearfix"  data-x="100" data-y="350" data-speed="500" data-start="1900" data-easing="Power4.easeInOut">
-									<h2>ONE STOP SOLUTION
-									YOUR TRANSPORT
-									REQUIREMENTS</h2>
+									<h2>EFECTIVIDAD
+									COMPROMISO
+									RESOPONSABILIDAD</h2>
 								</div>
 								<div class="caption lfr medium_grey"  data-x="left" data-y="center" data-speed="300" data-start="2000">
 									<a href="{{route('servicios')}}" class="services-link">Nuestro Servicio</a>
@@ -68,8 +68,8 @@
 									<a href="#" class="shipping">envio por tierra</a>
 								</div>
 								<div class="caption sfb big_orange clearfix"  data-x="100" data-y="350" data-speed="500" data-start="1900" data-easing="Power4.easeInOut">
-									<h2>ONE STOP SOLUTION
-									YOUR TRANSPORT
+									<h2>EFECTIVIDAD
+									COMPROMISO
 									REQUIREMENTS</h2>
 								</div>
 								<div class="caption lfr medium_grey" data-x="left" data-y="center" data-speed="300" data-start="2000">
@@ -84,9 +84,9 @@
 									<a href="#" class="shipping">envio por tierra</a>
 								</div>
 								<div class="caption sfb big_orange clearfix"  data-x="100" data-y="350" data-speed="500" data-start="1900" data-easing="Power4.easeInOut">
-									<h2>ONE STOP SOLUTION
-									YOUR TRANSPORT
-									REQUIREMENTS</h2>
+									<h2>EFECTIVIDAD
+									COMPROMISO
+									RESOPONSABILIDAD</h2>
 								</div>
 								<div class="caption lfr medium_grey"  data-x="left" data-y="center" data-speed="300" data-start="2000">
 									<a href="{{route('servicios')}}" class="services-link">Nuestro Servicio</a>

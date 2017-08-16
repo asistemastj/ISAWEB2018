@@ -48,7 +48,7 @@
 								</div>
 							</div>
 							<div class="col-xs-12 col-sm-3">
-								<a href="{{route('home')}}" class="logo"> <img src="images/logo.png" alt="" /> </a>
+								<a href="{{route('home')}}" class="logo"> <img src="images/logo2.png" alt="" /> </a>
 
 							</div>
 							<div class="col-xs-12 col-sm-9 custom-nav">

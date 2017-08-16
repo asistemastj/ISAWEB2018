@@ -49,7 +49,7 @@
 							<img src="images/banner-plane.jpg" alt="" />
 							<div class="banner-text">
 								<div class="caption sft big_white" data-x="0" data-y="100" data-speed="center" data-start="1700" data-easing="Power4.easeInOut">
-									<a href="#" class="shipping">ground shipping</a>
+									<a href="#" class="shipping">envio por tierra</a>
 								</div>
 								<div class="caption sfb big_orange clearfix"  data-x="100" data-y="350" data-speed="500" data-start="1900" data-easing="Power4.easeInOut">
 									<h2>ONE STOP SOLUTION
@@ -65,7 +65,7 @@
 							<img src="images/banner-train.jpg" alt="" />
 							<div class="banner-text">
 								<div class="caption sft big_white" data-x="0" data-y="100" data-speed="700" data-start="1700" data-easing="Power4.easeInOut">
-									<a href="#" class="shipping">ground shipping</a>
+									<a href="#" class="shipping">envio por tierra</a>
 								</div>
 								<div class="caption sfb big_orange clearfix"  data-x="100" data-y="350" data-speed="500" data-start="1900" data-easing="Power4.easeInOut">
 									<h2>ONE STOP SOLUTION
@@ -81,7 +81,7 @@
 							<img src="images/banner-truck.jpg" alt="" />
 							<div class="banner-text">
 								<div class="caption sft big_white" data-x="0" data-y="100" data-speed="700" data-start="1700" data-easing="Power4.easeInOut">
-									<a href="#" class="shipping">ground shipping</a>
+									<a href="#" class="shipping">envio por tierra</a>
 								</div>
 								<div class="caption sfb big_orange clearfix"  data-x="100" data-y="350" data-speed="500" data-start="1900" data-easing="Power4.easeInOut">
 									<h2>ONE STOP SOLUTION

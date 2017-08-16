@@ -11,26 +11,26 @@ class FrontController extends Controller
     }
 
     public function abousUs(){
-    	return view('about-us');
+    	return view('nosotros');
     }
 
     public function service(){
-    	return view('service');
+    	return view('servicios');
     }
 
     public function location(){
-    	return view('location');
+    	return view('ubicacion');
     }
 
     public function contact(){
-    	return view('contact');
+    	return view('contacto');
     }
 
     public function logros(){
-    	return view('logros');
+    	return view('historia');
     }
 
     public function transport(){
-    	return view('transport');
+    	return view('transporte');
     }
 }

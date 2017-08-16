@@ -4,26 +4,16 @@ $(document).ready(function(){
 // Define Json
     var markers = [
             {
-   "title": 'Grays',
-   "lat": '51.483273',
-   "lng": '0.322951'
+   "title": 'Trujillo',
+   "lat": '-8.1327614',
+   "lng": '-79.0140198'
    
 },
 
 {
-   "title": 'Bromley',
-   "lat": '51.411542',
-   "lng": '0.012636'
-},
-{
-   "title": 'Warlingham',
-   "lat": '51.308674',
-   "lng": '-0.051747'
-},
-{
-   "title": 'West Kingsdown',
-   "lat": '51.342253',
-   "lng": '0.255898'
+   "title": 'Lima',
+   "lat": '-11.9139438',
+   "lng": '-77.0765537'
 }
     ];
 
@@ -48,7 +38,7 @@ $(document).ready(function(){
    	// define map options
 	 var mapOptions = {
 						center: new google.maps.LatLng(markers[0].lat, markers[0].lng),
-						zoom: 11,
+						zoom: 6,
 						scrollwheel: false
 
 		           };
@@ -92,7 +82,7 @@ $(document).ready(function(){
           // define markar option
             var marker = new google.maps.Marker({
                 position: myLatlng,
-                icon:"assets/images/marker.png",
+                icon:"images/marker.png",
                 map: map,
                 title: data.title,
                 animation: google.maps.Animation.DROP

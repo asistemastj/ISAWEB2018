@@ -91,27 +91,31 @@
           <div class="container">
             <div class="row">
               <div id="location-slides" class="location-slider">
-                <div class="location-slide-tab">
-                  <h6>Lima</h6>
-                  <address>
-                  Second Street Nager <br />
-                  Howysala tower, canada 8856
-                  </address>
-                  <span class="call">call : <a href="tel:885955485596">8859 5548 5596</a></span> <span class="location-email">email : <a href="mailto:info@trucker.com"> info@trucker.com</a></span> </div>
+                
                 <div class="location-slide-tab">
                   <h6>Trujillo</h6>
                   <address>
                   Lote N°16-B2 Nro. 327 Ex-Fundo Larrea<br />
                   La Libertad - Trujillo - Moche - Perú
                   </address>
-                  <span class="call">call : <a href="tel:885955485596">8859 5548 5596</a></span> <span class="location-email">email : <a href="mailto:info@trucker.com"> info@trucker.com</a></span> </div>
+                  <span class="call">llama : <a href="#">994 029 631/(044) 612240</a></span> <span class="location-email">email : <a href="mailto:info@trucker.com"> operaciones@transportesjoselito.com</a></span> </div>
+
                 <div class="location-slide-tab">
-                  <h6>Yurimaguas</h6>
+                  <h6>Lima</h6>
                   <address>
-                  Second Street Nager <br />
-                  Howysala tower, canada 8856
+                  Av. Los Pinos Mz.E Lt. 13  
+                  Urb. Shangrila <br />
+                  Lima - Lima - Puente Piedra - Perú
                   </address>
-                  <span class="call">call : <a href="tel:885955485596">8859 5548 5596</a></span> <span class="location-email">email : <a href="mailto:info@trucker.com"> info@trucker.com</a></span> </div>
+                  <span class="call">llama : <a href="#">(01) 7197796</a></span> <span class="location-email">email : <a href="mailto:info@trucker.com"> operaciones@transportesjoselito.com</a></span> </div>
+
+                <div class="location-slide-tab">
+                  <h6>Trujillo</h6>
+                  <address>
+                  Lote N°16-B2 Nro. 327 Ex-Fundo Larrea<br />
+                  La Libertad - Trujillo - Moche - Perú
+                  </address>
+                  <span class="call">llama : <a href="#">994 029 631/(044) 612240</a></span> <span class="location-email">email : <a href="mailto:info@trucker.com"> operaciones@transportesjoselito.com</a></span> </div>
               </div>
             </div>
           </div>

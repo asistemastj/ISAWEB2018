@@ -82,7 +82,7 @@
           <figure> <img src="images/blog-pic.png" alt="" /> </figure>
           <div class="progress-content ">
             <div class="heading">
-              <h5>Abil 2011</h5>
+              <h5>En 2011</h5>
             </div>
             <h6 class="h5"> Ampliación del servicio </h6>
             <p>En ese año se cambio nuevamente la razón social ahora la empresa se llamaria, Transportes y Servicios Generales Joselito S.A.C, que es el nombre con el que sigue en la actualidad, ya que no solo trasnportaria carga pesada.</p>
@@ -94,7 +94,7 @@
           <figure> <img src="images/blog-pic.png" alt="" /> </figure>
           <div class="progress-content">
             <div class="heading">
-              <h5>MAR 1985</h5>
+              <h5>En 1985</h5>
             </div>
             <h6 class="h5"> El inicio de Joselito </h6>
             <p>En ese año se cambio el nombre a Transportes Joselito S.R. Ltda, ya que no tenia un nombre oficialcomo tal la empresa..</p>

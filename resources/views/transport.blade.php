@@ -67,7 +67,7 @@
                   <li> Una flota de vehiculos modernos, que cumplen con todas las normas de seguridad y certificaciones. </li>
                 </ul>
                 <p> Actualmente nos dedicamos al transporte de carga en general para la industria nacional por toda la red de carreteras especialmente de la costa peruana. Contamos con una moderna flota, conformada por 63 tractos remolcadores, 66 cisternas, 29 plataformas, 6 furgón refrigerado y personal altamente calificado, nuestras actividades se desarrollan en la sede principal Trujillo y la sede Lima. </p>
-                <strong>Contactanos hoy al: <a href="tel:994 029 631">994 029 631</a></strong> </div>
+                <strong>Contactanos hoy al: <a href="#">(044) 612240 </a></strong> </div>
             </div>
             <div class="col-md-3 col-sm-4 col-xs-12">
               <div class="service-quote-wrap">

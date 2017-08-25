@@ -14,10 +14,10 @@
                         <a href="request-a-quote.html" class="request">Solicita una cotización</a>
                         <ul class="social">
                             <li>
-                                <a href="#"> <i class="fa fa-facebook"></i> </a>
+                                <a href="https://www.facebook.com/pages/Transportes-Joselito/193293380731320"> <i class="fa fa-facebook"></i> </a>
                             </li>
                             <li>
-                                <a href="#"> <i class="fa fa-twitter"></i> </a>
+                                <a href="https://twitter.com/TJOSELITOPERU"> <i class="fa fa-twitter"></i> </a>
                             </li>
                             <li>
                                 <a href="#"> <i class="fa fa-google-plus"></i> </a>
@@ -48,7 +48,7 @@
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-3">
-                    <a href="{{route('home')}}" class="logo"> <img src="images/logo31.png" alt="" /> </a>
+                    <a href="{{route('home')}}" class="logo"><img src="images/logo31.png" width="" alt="http://127.0.0.1:8000/" /> </a>
 
                 </div>
                 <div class="col-xs-12 col-sm-9 custom-nav">
@@ -62,7 +62,15 @@
                                     <a href="{{route('nosotros')}}">Nosotros</a>
                                 </li>
                                 <li>
-                                    <a href="{{route('servicios')}}">Servicios</a>
+                                    <a href="#">Servicios</a>
+                                    <ul class="sub-menu">
+                                        <li>
+                                            <a href="{{route('servicios')}}">Flota</a>
+                                        </li>
+                                        <li>
+                                            <a href="{{route('servicios')}}">Transporte</a>
+                                        </li>
+                                    </ul>
                                 </li>
                                 <li>
                                     <a href="{{route('ubicacion')}}">Ubicación</a>
@@ -82,7 +90,7 @@
                                     <a href="{{route('contacto')}}">Contactanos</a>
                                 </li>
                                 <li>
-                                    <a href="#">Intranet</a>
+                                    <a href="http://192.168.10.36/isa%20web/">Intranet</a>
                                 </li>
                             </ul>
                         </div>

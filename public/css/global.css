@@ -65,6 +65,8 @@ a:hover {
 img {
 	max-width: 100%;
 	height: auto;
+        width: auto;
+        margin-top: -16px
 }
 ul, ol {
 	padding-left: 0px;
@@ -590,7 +592,8 @@ body #header.fixed.intelligent.fix .main-header {
 	border-left: 1px solid #3d4953;
 }
 .homepage-2 .logo {
-	margin-top: 6px;
+	
+    margin-top: 6px;
    
 }
 .homepage-2 .call-us ul {
